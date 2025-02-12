@@ -1,0 +1,4723 @@
+[
+    {
+        "id": 1,
+        "name": "bulbasaur",
+        "base_experience": 64,
+        "height": 7,
+        "weight": 69,
+        "abilities": [
+            "overgrow",
+            "chlorophyll"
+        ],
+        "forms": [
+            "bulbasaur"
+        ],
+        "types": [
+            "grass",
+            "poison"
+        ],
+        "stats": {
+            "hp": 45,
+            "attack": 49,
+            "defense": 49,
+            "special-attack": 65,
+            "special-defense": 65,
+            "speed": 45
+        },
+        "species": "bulbasaur",
+        "cry_file": "bulbasaur",
+        "previous_evolution": null,
+        "next_evolution": [
+            "ivysaur"
+        ]
+    },
+    {
+        "id": 2,
+        "name": "ivysaur",
+        "base_experience": 142,
+        "height": 10,
+        "weight": 130,
+        "abilities": [
+            "overgrow",
+            "chlorophyll"
+        ],
+        "forms": [
+            "ivysaur"
+        ],
+        "types": [
+            "grass",
+            "poison"
+        ],
+        "stats": {
+            "hp": 60,
+            "attack": 62,
+            "defense": 63,
+            "special-attack": 80,
+            "special-defense": 80,
+            "speed": 60
+        },
+        "species": "ivysaur",
+        "cry_file": "ivysaur",
+        "previous_evolution": "bulbasaur",
+        "next_evolution": [
+            "venusaur"
+        ]
+    },
+    {
+        "id": 3,
+        "name": "venusaur",
+        "base_experience": 263,
+        "height": 20,
+        "weight": 1000,
+        "abilities": [
+            "overgrow",
+            "chlorophyll"
+        ],
+        "forms": [
+            "venusaur"
+        ],
+        "types": [
+            "grass",
+            "poison"
+        ],
+        "stats": {
+            "hp": 80,
+            "attack": 82,
+            "defense": 83,
+            "special-attack": 100,
+            "special-defense": 100,
+            "speed": 80
+        },
+        "species": "venusaur",
+        "cry_file": "venusaur",
+        "previous_evolution": "ivysaur",
+        "next_evolution": null
+    },
+    {
+        "id": 4,
+        "name": "charmander",
+        "base_experience": 62,
+        "height": 6,
+        "weight": 85,
+        "abilities": [
+            "blaze",
+            "solar-power"
+        ],
+        "forms": [
+            "charmander"
+        ],
+        "types": [
+            "fire"
+        ],
+        "stats": {
+            "hp": 39,
+            "attack": 52,
+            "defense": 43,
+            "special-attack": 60,
+            "special-defense": 50,
+            "speed": 65
+        },
+        "species": "charmander",
+        "cry_file": "charmander",
+        "previous_evolution": null,
+        "next_evolution": [
+            "charmeleon"
+        ]
+    },
+    {
+        "id": 5,
+        "name": "charmeleon",
+        "base_experience": 142,
+        "height": 11,
+        "weight": 190,
+        "abilities": [
+            "blaze",
+            "solar-power"
+        ],
+        "forms": [
+            "charmeleon"
+        ],
+        "types": [
+            "fire"
+        ],
+        "stats": {
+            "hp": 58,
+            "attack": 64,
+            "defense": 58,
+            "special-attack": 80,
+            "special-defense": 65,
+            "speed": 80
+        },
+        "species": "charmeleon",
+        "cry_file": "charmeleon",
+        "previous_evolution": "charmander",
+        "next_evolution": [
+            "charizard"
+        ]
+    },
+    {
+        "id": 6,
+        "name": "charizard",
+        "base_experience": 267,
+        "height": 17,
+        "weight": 905,
+        "abilities": [
+            "blaze",
+            "solar-power"
+        ],
+        "forms": [
+            "charizard"
+        ],
+        "types": [
+            "fire",
+            "flying"
+        ],
+        "stats": {
+            "hp": 78,
+            "attack": 84,
+            "defense": 78,
+            "special-attack": 109,
+            "special-defense": 85,
+            "speed": 100
+        },
+        "species": "charizard",
+        "cry_file": "charizard",
+        "previous_evolution": "charmeleon",
+        "next_evolution": null
+    },
+    {
+        "id": 7,
+        "name": "squirtle",
+        "base_experience": 63,
+        "height": 5,
+        "weight": 90,
+        "abilities": [
+            "torrent",
+            "rain-dish"
+        ],
+        "forms": [
+            "squirtle"
+        ],
+        "types": [
+            "water"
+        ],
+        "stats": {
+            "hp": 44,
+            "attack": 48,
+            "defense": 65,
+            "special-attack": 50,
+            "special-defense": 64,
+            "speed": 43
+        },
+        "species": "squirtle",
+        "cry_file": "squirtle",
+        "previous_evolution": null,
+        "next_evolution": [
+            "wartortle"
+        ]
+    },
+    {
+        "id": 8,
+        "name": "wartortle",
+        "base_experience": 142,
+        "height": 10,
+        "weight": 225,
+        "abilities": [
+            "torrent",
+            "rain-dish"
+        ],
+        "forms": [
+            "wartortle"
+        ],
+        "types": [
+            "water"
+        ],
+        "stats": {
+            "hp": 59,
+            "attack": 63,
+            "defense": 80,
+            "special-attack": 65,
+            "special-defense": 80,
+            "speed": 58
+        },
+        "species": "wartortle",
+        "cry_file": "wartortle",
+        "previous_evolution": "squirtle",
+        "next_evolution": [
+            "blastoise"
+        ]
+    },
+    {
+        "id": 9,
+        "name": "blastoise",
+        "base_experience": 265,
+        "height": 16,
+        "weight": 855,
+        "abilities": [
+            "torrent",
+            "rain-dish"
+        ],
+        "forms": [
+            "blastoise"
+        ],
+        "types": [
+            "water"
+        ],
+        "stats": {
+            "hp": 79,
+            "attack": 83,
+            "defense": 100,
+            "special-attack": 85,
+            "special-defense": 105,
+            "speed": 78
+        },
+        "species": "blastoise",
+        "cry_file": "blastoise",
+        "previous_evolution": "wartortle",
+        "next_evolution": null
+    },
+    {
+        "id": 10,
+        "name": "caterpie",
+        "base_experience": 39,
+        "height": 3,
+        "weight": 29,
+        "abilities": [
+            "shield-dust",
+            "run-away"
+        ],
+        "forms": [
+            "caterpie"
+        ],
+        "types": [
+            "bug"
+        ],
+        "stats": {
+            "hp": 45,
+            "attack": 30,
+            "defense": 35,
+            "special-attack": 20,
+            "special-defense": 20,
+            "speed": 45
+        },
+        "species": "caterpie",
+        "cry_file": "caterpie",
+        "previous_evolution": null,
+        "next_evolution": [
+            "metapod"
+        ]
+    },
+    {
+        "id": 11,
+        "name": "metapod",
+        "base_experience": 72,
+        "height": 7,
+        "weight": 99,
+        "abilities": [
+            "shed-skin"
+        ],
+        "forms": [
+            "metapod"
+        ],
+        "types": [
+            "bug"
+        ],
+        "stats": {
+            "hp": 50,
+            "attack": 20,
+            "defense": 55,
+            "special-attack": 25,
+            "special-defense": 25,
+            "speed": 30
+        },
+        "species": "metapod",
+        "cry_file": "metapod",
+        "previous_evolution": "caterpie",
+        "next_evolution": [
+            "butterfree"
+        ]
+    },
+    {
+        "id": 12,
+        "name": "butterfree",
+        "base_experience": 198,
+        "height": 11,
+        "weight": 320,
+        "abilities": [
+            "compound-eyes",
+            "tinted-lens"
+        ],
+        "forms": [
+            "butterfree"
+        ],
+        "types": [
+            "bug",
+            "flying"
+        ],
+        "stats": {
+            "hp": 60,
+            "attack": 45,
+            "defense": 50,
+            "special-attack": 90,
+            "special-defense": 80,
+            "speed": 70
+        },
+        "species": "butterfree",
+        "cry_file": "butterfree",
+        "previous_evolution": "metapod",
+        "next_evolution": null
+    },
+    {
+        "id": 13,
+        "name": "weedle",
+        "base_experience": 39,
+        "height": 3,
+        "weight": 32,
+        "abilities": [
+            "shield-dust",
+            "run-away"
+        ],
+        "forms": [
+            "weedle"
+        ],
+        "types": [
+            "bug",
+            "poison"
+        ],
+        "stats": {
+            "hp": 40,
+            "attack": 35,
+            "defense": 30,
+            "special-attack": 20,
+            "special-defense": 20,
+            "speed": 50
+        },
+        "species": "weedle",
+        "cry_file": "weedle",
+        "previous_evolution": null,
+        "next_evolution": [
+            "kakuna"
+        ]
+    },
+    {
+        "id": 14,
+        "name": "kakuna",
+        "base_experience": 72,
+        "height": 6,
+        "weight": 100,
+        "abilities": [
+            "shed-skin"
+        ],
+        "forms": [
+            "kakuna"
+        ],
+        "types": [
+            "bug",
+            "poison"
+        ],
+        "stats": {
+            "hp": 45,
+            "attack": 25,
+            "defense": 50,
+            "special-attack": 25,
+            "special-defense": 25,
+            "speed": 35
+        },
+        "species": "kakuna",
+        "cry_file": "kakuna",
+        "previous_evolution": "weedle",
+        "next_evolution": [
+            "beedrill"
+        ]
+    },
+    {
+        "id": 15,
+        "name": "beedrill",
+        "base_experience": 178,
+        "height": 10,
+        "weight": 295,
+        "abilities": [
+            "swarm",
+            "sniper"
+        ],
+        "forms": [
+            "beedrill"
+        ],
+        "types": [
+            "bug",
+            "poison"
+        ],
+        "stats": {
+            "hp": 65,
+            "attack": 90,
+            "defense": 40,
+            "special-attack": 45,
+            "special-defense": 80,
+            "speed": 75
+        },
+        "species": "beedrill",
+        "cry_file": "beedrill",
+        "previous_evolution": "kakuna",
+        "next_evolution": null
+    },
+    {
+        "id": 16,
+        "name": "pidgey",
+        "base_experience": 50,
+        "height": 3,
+        "weight": 18,
+        "abilities": [
+            "keen-eye",
+            "tangled-feet",
+            "big-pecks"
+        ],
+        "forms": [
+            "pidgey"
+        ],
+        "types": [
+            "normal",
+            "flying"
+        ],
+        "stats": {
+            "hp": 40,
+            "attack": 45,
+            "defense": 40,
+            "special-attack": 35,
+            "special-defense": 35,
+            "speed": 56
+        },
+        "species": "pidgey",
+        "cry_file": "pidgey",
+        "previous_evolution": null,
+        "next_evolution": [
+            "pidgeotto"
+        ]
+    },
+    {
+        "id": 17,
+        "name": "pidgeotto",
+        "base_experience": 122,
+        "height": 11,
+        "weight": 300,
+        "abilities": [
+            "keen-eye",
+            "tangled-feet",
+            "big-pecks"
+        ],
+        "forms": [
+            "pidgeotto"
+        ],
+        "types": [
+            "normal",
+            "flying"
+        ],
+        "stats": {
+            "hp": 63,
+            "attack": 60,
+            "defense": 55,
+            "special-attack": 50,
+            "special-defense": 50,
+            "speed": 71
+        },
+        "species": "pidgeotto",
+        "cry_file": "pidgeotto",
+        "previous_evolution": "pidgey",
+        "next_evolution": [
+            "pidgeot"
+        ]
+    },
+    {
+        "id": 18,
+        "name": "pidgeot",
+        "base_experience": 216,
+        "height": 15,
+        "weight": 395,
+        "abilities": [
+            "keen-eye",
+            "tangled-feet",
+            "big-pecks"
+        ],
+        "forms": [
+            "pidgeot"
+        ],
+        "types": [
+            "normal",
+            "flying"
+        ],
+        "stats": {
+            "hp": 83,
+            "attack": 80,
+            "defense": 75,
+            "special-attack": 70,
+            "special-defense": 70,
+            "speed": 101
+        },
+        "species": "pidgeot",
+        "cry_file": "pidgeot",
+        "previous_evolution": "pidgeotto",
+        "next_evolution": null
+    },
+    {
+        "id": 19,
+        "name": "rattata",
+        "base_experience": 51,
+        "height": 3,
+        "weight": 35,
+        "abilities": [
+            "run-away",
+            "guts",
+            "hustle"
+        ],
+        "forms": [
+            "rattata"
+        ],
+        "types": [
+            "normal"
+        ],
+        "stats": {
+            "hp": 30,
+            "attack": 56,
+            "defense": 35,
+            "special-attack": 25,
+            "special-defense": 35,
+            "speed": 72
+        },
+        "species": "rattata",
+        "cry_file": "rattata",
+        "previous_evolution": null,
+        "next_evolution": [
+            "raticate"
+        ]
+    },
+    {
+        "id": 20,
+        "name": "raticate",
+        "base_experience": 145,
+        "height": 7,
+        "weight": 185,
+        "abilities": [
+            "run-away",
+            "guts",
+            "hustle"
+        ],
+        "forms": [
+            "raticate"
+        ],
+        "types": [
+            "normal"
+        ],
+        "stats": {
+            "hp": 55,
+            "attack": 81,
+            "defense": 60,
+            "special-attack": 50,
+            "special-defense": 70,
+            "speed": 97
+        },
+        "species": "raticate",
+        "cry_file": "raticate",
+        "previous_evolution": "rattata",
+        "next_evolution": null
+    },
+    {
+        "id": 21,
+        "name": "spearow",
+        "base_experience": 52,
+        "height": 3,
+        "weight": 20,
+        "abilities": [
+            "keen-eye",
+            "sniper"
+        ],
+        "forms": [
+            "spearow"
+        ],
+        "types": [
+            "normal",
+            "flying"
+        ],
+        "stats": {
+            "hp": 40,
+            "attack": 60,
+            "defense": 30,
+            "special-attack": 31,
+            "special-defense": 31,
+            "speed": 70
+        },
+        "species": "spearow",
+        "cry_file": "spearow",
+        "previous_evolution": null,
+        "next_evolution": [
+            "fearow"
+        ]
+    },
+    {
+        "id": 22,
+        "name": "fearow",
+        "base_experience": 155,
+        "height": 12,
+        "weight": 380,
+        "abilities": [
+            "keen-eye",
+            "sniper"
+        ],
+        "forms": [
+            "fearow"
+        ],
+        "types": [
+            "normal",
+            "flying"
+        ],
+        "stats": {
+            "hp": 65,
+            "attack": 90,
+            "defense": 65,
+            "special-attack": 61,
+            "special-defense": 61,
+            "speed": 100
+        },
+        "species": "fearow",
+        "cry_file": "fearow",
+        "previous_evolution": "spearow",
+        "next_evolution": null
+    },
+    {
+        "id": 23,
+        "name": "ekans",
+        "base_experience": 58,
+        "height": 20,
+        "weight": 69,
+        "abilities": [
+            "intimidate",
+            "shed-skin",
+            "unnerve"
+        ],
+        "forms": [
+            "ekans"
+        ],
+        "types": [
+            "poison"
+        ],
+        "stats": {
+            "hp": 35,
+            "attack": 60,
+            "defense": 44,
+            "special-attack": 40,
+            "special-defense": 54,
+            "speed": 55
+        },
+        "species": "ekans",
+        "cry_file": "ekans",
+        "previous_evolution": null,
+        "next_evolution": [
+            "arbok"
+        ]
+    },
+    {
+        "id": 24,
+        "name": "arbok",
+        "base_experience": 157,
+        "height": 35,
+        "weight": 650,
+        "abilities": [
+            "intimidate",
+            "shed-skin",
+            "unnerve"
+        ],
+        "forms": [
+            "arbok"
+        ],
+        "types": [
+            "poison"
+        ],
+        "stats": {
+            "hp": 60,
+            "attack": 95,
+            "defense": 69,
+            "special-attack": 65,
+            "special-defense": 79,
+            "speed": 80
+        },
+        "species": "arbok",
+        "cry_file": "arbok",
+        "previous_evolution": "ekans",
+        "next_evolution": null
+    },
+    {
+        "id": 25,
+        "name": "pikachu",
+        "base_experience": 112,
+        "height": 4,
+        "weight": 60,
+        "abilities": [
+            "static",
+            "lightning-rod"
+        ],
+        "forms": [
+            "pikachu"
+        ],
+        "types": [
+            "electric"
+        ],
+        "stats": {
+            "hp": 35,
+            "attack": 55,
+            "defense": 40,
+            "special-attack": 50,
+            "special-defense": 50,
+            "speed": 90
+        },
+        "species": "pikachu",
+        "cry_file": "pikachu",
+        "previous_evolution": "pichu",
+        "next_evolution": [
+            "raichu"
+        ]
+    },
+    {
+        "id": 26,
+        "name": "raichu",
+        "base_experience": 243,
+        "height": 8,
+        "weight": 300,
+        "abilities": [
+            "static",
+            "lightning-rod"
+        ],
+        "forms": [
+            "raichu"
+        ],
+        "types": [
+            "electric"
+        ],
+        "stats": {
+            "hp": 60,
+            "attack": 90,
+            "defense": 55,
+            "special-attack": 90,
+            "special-defense": 80,
+            "speed": 110
+        },
+        "species": "raichu",
+        "cry_file": "raichu",
+        "previous_evolution": "pikachu",
+        "next_evolution": null
+    },
+    {
+        "id": 27,
+        "name": "sandshrew",
+        "base_experience": 60,
+        "height": 6,
+        "weight": 120,
+        "abilities": [
+            "sand-veil",
+            "sand-rush"
+        ],
+        "forms": [
+            "sandshrew"
+        ],
+        "types": [
+            "ground"
+        ],
+        "stats": {
+            "hp": 50,
+            "attack": 75,
+            "defense": 85,
+            "special-attack": 20,
+            "special-defense": 30,
+            "speed": 40
+        },
+        "species": "sandshrew",
+        "cry_file": "sandshrew",
+        "previous_evolution": null,
+        "next_evolution": [
+            "sandslash"
+        ]
+    },
+    {
+        "id": 28,
+        "name": "sandslash",
+        "base_experience": 158,
+        "height": 10,
+        "weight": 295,
+        "abilities": [
+            "sand-veil",
+            "sand-rush"
+        ],
+        "forms": [
+            "sandslash"
+        ],
+        "types": [
+            "ground"
+        ],
+        "stats": {
+            "hp": 75,
+            "attack": 100,
+            "defense": 110,
+            "special-attack": 45,
+            "special-defense": 55,
+            "speed": 65
+        },
+        "species": "sandslash",
+        "cry_file": "sandslash",
+        "previous_evolution": "sandshrew",
+        "next_evolution": null
+    },
+    {
+        "id": 29,
+        "name": "nidoran-f",
+        "base_experience": 55,
+        "height": 4,
+        "weight": 70,
+        "abilities": [
+            "poison-point",
+            "rivalry",
+            "hustle"
+        ],
+        "forms": [
+            "nidoran-f"
+        ],
+        "types": [
+            "poison"
+        ],
+        "stats": {
+            "hp": 55,
+            "attack": 47,
+            "defense": 52,
+            "special-attack": 40,
+            "special-defense": 40,
+            "speed": 41
+        },
+        "species": "nidoran-f",
+        "cry_file": "nidoran_f",
+        "previous_evolution": null,
+        "next_evolution": [
+            "nidorina"
+        ]
+    },
+    {
+        "id": 30,
+        "name": "nidorina",
+        "base_experience": 128,
+        "height": 8,
+        "weight": 200,
+        "abilities": [
+            "poison-point",
+            "rivalry",
+            "hustle"
+        ],
+        "forms": [
+            "nidorina"
+        ],
+        "types": [
+            "poison"
+        ],
+        "stats": {
+            "hp": 70,
+            "attack": 62,
+            "defense": 67,
+            "special-attack": 55,
+            "special-defense": 55,
+            "speed": 56
+        },
+        "species": "nidorina",
+        "cry_file": "nidorina",
+        "previous_evolution": "nidoran-f",
+        "next_evolution": [
+            "nidoqueen"
+        ]
+    },
+    {
+        "id": 31,
+        "name": "nidoqueen",
+        "base_experience": 253,
+        "height": 13,
+        "weight": 600,
+        "abilities": [
+            "poison-point",
+            "rivalry",
+            "sheer-force"
+        ],
+        "forms": [
+            "nidoqueen"
+        ],
+        "types": [
+            "poison",
+            "ground"
+        ],
+        "stats": {
+            "hp": 90,
+            "attack": 92,
+            "defense": 87,
+            "special-attack": 75,
+            "special-defense": 85,
+            "speed": 76
+        },
+        "species": "nidoqueen",
+        "cry_file": "nidoqueen",
+        "previous_evolution": "nidorina",
+        "next_evolution": null
+    },
+    {
+        "id": 32,
+        "name": "nidoran-m",
+        "base_experience": 55,
+        "height": 5,
+        "weight": 90,
+        "abilities": [
+            "poison-point",
+            "rivalry",
+            "hustle"
+        ],
+        "forms": [
+            "nidoran-m"
+        ],
+        "types": [
+            "poison"
+        ],
+        "stats": {
+            "hp": 46,
+            "attack": 57,
+            "defense": 40,
+            "special-attack": 40,
+            "special-defense": 40,
+            "speed": 50
+        },
+        "species": "nidoran-m",
+        "cry_file": "nidoran_m",
+        "previous_evolution": null,
+        "next_evolution": [
+            "nidorino"
+        ]
+    },
+    {
+        "id": 33,
+        "name": "nidorino",
+        "base_experience": 128,
+        "height": 9,
+        "weight": 195,
+        "abilities": [
+            "poison-point",
+            "rivalry",
+            "hustle"
+        ],
+        "forms": [
+            "nidorino"
+        ],
+        "types": [
+            "poison"
+        ],
+        "stats": {
+            "hp": 61,
+            "attack": 72,
+            "defense": 57,
+            "special-attack": 55,
+            "special-defense": 55,
+            "speed": 65
+        },
+        "species": "nidorino",
+        "cry_file": "nidorino",
+        "previous_evolution": "nidoran-m",
+        "next_evolution": [
+            "nidoking"
+        ]
+    },
+    {
+        "id": 34,
+        "name": "nidoking",
+        "base_experience": 253,
+        "height": 14,
+        "weight": 620,
+        "abilities": [
+            "poison-point",
+            "rivalry",
+            "sheer-force"
+        ],
+        "forms": [
+            "nidoking"
+        ],
+        "types": [
+            "poison",
+            "ground"
+        ],
+        "stats": {
+            "hp": 81,
+            "attack": 102,
+            "defense": 77,
+            "special-attack": 85,
+            "special-defense": 75,
+            "speed": 85
+        },
+        "species": "nidoking",
+        "cry_file": "nidoking",
+        "previous_evolution": "nidorino",
+        "next_evolution": null
+    },
+    {
+        "id": 35,
+        "name": "clefairy",
+        "base_experience": 113,
+        "height": 6,
+        "weight": 75,
+        "abilities": [
+            "cute-charm",
+            "magic-guard",
+            "friend-guard"
+        ],
+        "forms": [
+            "clefairy"
+        ],
+        "types": [
+            "fairy"
+        ],
+        "stats": {
+            "hp": 70,
+            "attack": 45,
+            "defense": 48,
+            "special-attack": 60,
+            "special-defense": 65,
+            "speed": 35
+        },
+        "species": "clefairy",
+        "cry_file": "clefairy",
+        "previous_evolution": "cleffa",
+        "next_evolution": [
+            "clefable"
+        ]
+    },
+    {
+        "id": 36,
+        "name": "clefable",
+        "base_experience": 242,
+        "height": 13,
+        "weight": 400,
+        "abilities": [
+            "cute-charm",
+            "magic-guard",
+            "unaware"
+        ],
+        "forms": [
+            "clefable"
+        ],
+        "types": [
+            "fairy"
+        ],
+        "stats": {
+            "hp": 95,
+            "attack": 70,
+            "defense": 73,
+            "special-attack": 95,
+            "special-defense": 90,
+            "speed": 60
+        },
+        "species": "clefable",
+        "cry_file": "clefable",
+        "previous_evolution": "clefairy",
+        "next_evolution": null
+    },
+    {
+        "id": 37,
+        "name": "vulpix",
+        "base_experience": 60,
+        "height": 6,
+        "weight": 99,
+        "abilities": [
+            "flash-fire",
+            "drought"
+        ],
+        "forms": [
+            "vulpix"
+        ],
+        "types": [
+            "fire"
+        ],
+        "stats": {
+            "hp": 38,
+            "attack": 41,
+            "defense": 40,
+            "special-attack": 50,
+            "special-defense": 65,
+            "speed": 65
+        },
+        "species": "vulpix",
+        "cry_file": "vulpix",
+        "previous_evolution": null,
+        "next_evolution": [
+            "ninetales"
+        ]
+    },
+    {
+        "id": 38,
+        "name": "ninetales",
+        "base_experience": 177,
+        "height": 11,
+        "weight": 199,
+        "abilities": [
+            "flash-fire",
+            "drought"
+        ],
+        "forms": [
+            "ninetales"
+        ],
+        "types": [
+            "fire"
+        ],
+        "stats": {
+            "hp": 73,
+            "attack": 76,
+            "defense": 75,
+            "special-attack": 81,
+            "special-defense": 100,
+            "speed": 100
+        },
+        "species": "ninetales",
+        "cry_file": "ninetales",
+        "previous_evolution": "vulpix",
+        "next_evolution": null
+    },
+    {
+        "id": 39,
+        "name": "jigglypuff",
+        "base_experience": 95,
+        "height": 5,
+        "weight": 55,
+        "abilities": [
+            "cute-charm",
+            "competitive",
+            "friend-guard"
+        ],
+        "forms": [
+            "jigglypuff"
+        ],
+        "types": [
+            "normal",
+            "fairy"
+        ],
+        "stats": {
+            "hp": 115,
+            "attack": 45,
+            "defense": 20,
+            "special-attack": 45,
+            "special-defense": 25,
+            "speed": 20
+        },
+        "species": "jigglypuff",
+        "cry_file": "jigglypuff",
+        "previous_evolution": "igglybuff",
+        "next_evolution": [
+            "wigglytuff"
+        ]
+    },
+    {
+        "id": 40,
+        "name": "wigglytuff",
+        "base_experience": 218,
+        "height": 10,
+        "weight": 120,
+        "abilities": [
+            "cute-charm",
+            "competitive",
+            "frisk"
+        ],
+        "forms": [
+            "wigglytuff"
+        ],
+        "types": [
+            "normal",
+            "fairy"
+        ],
+        "stats": {
+            "hp": 140,
+            "attack": 70,
+            "defense": 45,
+            "special-attack": 85,
+            "special-defense": 50,
+            "speed": 45
+        },
+        "species": "wigglytuff",
+        "cry_file": "wigglytuff",
+        "previous_evolution": "jigglypuff",
+        "next_evolution": null
+    },
+    {
+        "id": 41,
+        "name": "zubat",
+        "base_experience": 49,
+        "height": 8,
+        "weight": 75,
+        "abilities": [
+            "inner-focus",
+            "infiltrator"
+        ],
+        "forms": [
+            "zubat"
+        ],
+        "types": [
+            "poison",
+            "flying"
+        ],
+        "stats": {
+            "hp": 40,
+            "attack": 45,
+            "defense": 35,
+            "special-attack": 30,
+            "special-defense": 40,
+            "speed": 55
+        },
+        "species": "zubat",
+        "cry_file": "zubat",
+        "previous_evolution": null,
+        "next_evolution": [
+            "golbat"
+        ]
+    },
+    {
+        "id": 42,
+        "name": "golbat",
+        "base_experience": 159,
+        "height": 16,
+        "weight": 550,
+        "abilities": [
+            "inner-focus",
+            "infiltrator"
+        ],
+        "forms": [
+            "golbat"
+        ],
+        "types": [
+            "poison",
+            "flying"
+        ],
+        "stats": {
+            "hp": 75,
+            "attack": 80,
+            "defense": 70,
+            "special-attack": 65,
+            "special-defense": 75,
+            "speed": 90
+        },
+        "species": "golbat",
+        "cry_file": "golbat",
+        "previous_evolution": "zubat",
+        "next_evolution": [
+            "crobat"
+        ]
+    },
+    {
+        "id": 43,
+        "name": "oddish",
+        "base_experience": 64,
+        "height": 5,
+        "weight": 54,
+        "abilities": [
+            "chlorophyll",
+            "run-away"
+        ],
+        "forms": [
+            "oddish"
+        ],
+        "types": [
+            "grass",
+            "poison"
+        ],
+        "stats": {
+            "hp": 45,
+            "attack": 50,
+            "defense": 55,
+            "special-attack": 75,
+            "special-defense": 65,
+            "speed": 30
+        },
+        "species": "oddish",
+        "cry_file": "oddish",
+        "previous_evolution": null,
+        "next_evolution": [
+            "gloom"
+        ]
+    },
+    {
+        "id": 44,
+        "name": "gloom",
+        "base_experience": 138,
+        "height": 8,
+        "weight": 86,
+        "abilities": [
+            "chlorophyll",
+            "stench"
+        ],
+        "forms": [
+            "gloom"
+        ],
+        "types": [
+            "grass",
+            "poison"
+        ],
+        "stats": {
+            "hp": 60,
+            "attack": 65,
+            "defense": 70,
+            "special-attack": 85,
+            "special-defense": 75,
+            "speed": 40
+        },
+        "species": "gloom",
+        "cry_file": "gloom",
+        "previous_evolution": "oddish",
+        "next_evolution": [
+            "vileplume",
+            "bellossom"
+        ]
+    },
+    {
+        "id": 45,
+        "name": "vileplume",
+        "base_experience": 245,
+        "height": 12,
+        "weight": 186,
+        "abilities": [
+            "chlorophyll",
+            "effect-spore"
+        ],
+        "forms": [
+            "vileplume"
+        ],
+        "types": [
+            "grass",
+            "poison"
+        ],
+        "stats": {
+            "hp": 75,
+            "attack": 80,
+            "defense": 85,
+            "special-attack": 110,
+            "special-defense": 90,
+            "speed": 50
+        },
+        "species": "vileplume",
+        "cry_file": "vileplume",
+        "previous_evolution": "gloom",
+        "next_evolution": null
+    },
+    {
+        "id": 46,
+        "name": "paras",
+        "base_experience": 57,
+        "height": 3,
+        "weight": 54,
+        "abilities": [
+            "effect-spore",
+            "dry-skin",
+            "damp"
+        ],
+        "forms": [
+            "paras"
+        ],
+        "types": [
+            "bug",
+            "grass"
+        ],
+        "stats": {
+            "hp": 35,
+            "attack": 70,
+            "defense": 55,
+            "special-attack": 45,
+            "special-defense": 55,
+            "speed": 25
+        },
+        "species": "paras",
+        "cry_file": "paras",
+        "previous_evolution": null,
+        "next_evolution": [
+            "parasect"
+        ]
+    },
+    {
+        "id": 47,
+        "name": "parasect",
+        "base_experience": 142,
+        "height": 10,
+        "weight": 295,
+        "abilities": [
+            "effect-spore",
+            "dry-skin",
+            "damp"
+        ],
+        "forms": [
+            "parasect"
+        ],
+        "types": [
+            "bug",
+            "grass"
+        ],
+        "stats": {
+            "hp": 60,
+            "attack": 95,
+            "defense": 80,
+            "special-attack": 60,
+            "special-defense": 80,
+            "speed": 30
+        },
+        "species": "parasect",
+        "cry_file": "parasect",
+        "previous_evolution": "paras",
+        "next_evolution": null
+    },
+    {
+        "id": 48,
+        "name": "venonat",
+        "base_experience": 61,
+        "height": 10,
+        "weight": 300,
+        "abilities": [
+            "compound-eyes",
+            "tinted-lens",
+            "run-away"
+        ],
+        "forms": [
+            "venonat"
+        ],
+        "types": [
+            "bug",
+            "poison"
+        ],
+        "stats": {
+            "hp": 60,
+            "attack": 55,
+            "defense": 50,
+            "special-attack": 40,
+            "special-defense": 55,
+            "speed": 45
+        },
+        "species": "venonat",
+        "cry_file": "venonat",
+        "previous_evolution": null,
+        "next_evolution": [
+            "venomoth"
+        ]
+    },
+    {
+        "id": 49,
+        "name": "venomoth",
+        "base_experience": 158,
+        "height": 15,
+        "weight": 125,
+        "abilities": [
+            "shield-dust",
+            "tinted-lens",
+            "wonder-skin"
+        ],
+        "forms": [
+            "venomoth"
+        ],
+        "types": [
+            "bug",
+            "poison"
+        ],
+        "stats": {
+            "hp": 70,
+            "attack": 65,
+            "defense": 60,
+            "special-attack": 90,
+            "special-defense": 75,
+            "speed": 90
+        },
+        "species": "venomoth",
+        "cry_file": "venomoth",
+        "previous_evolution": "venonat",
+        "next_evolution": null
+    },
+    {
+        "id": 50,
+        "name": "diglett",
+        "base_experience": 53,
+        "height": 2,
+        "weight": 8,
+        "abilities": [
+            "sand-veil",
+            "arena-trap",
+            "sand-force"
+        ],
+        "forms": [
+            "diglett"
+        ],
+        "types": [
+            "ground"
+        ],
+        "stats": {
+            "hp": 10,
+            "attack": 55,
+            "defense": 25,
+            "special-attack": 35,
+            "special-defense": 45,
+            "speed": 95
+        },
+        "species": "diglett",
+        "cry_file": "diglett",
+        "previous_evolution": null,
+        "next_evolution": [
+            "dugtrio"
+        ]
+    },
+    {
+        "id": 51,
+        "name": "dugtrio",
+        "base_experience": 149,
+        "height": 7,
+        "weight": 333,
+        "abilities": [
+            "sand-veil",
+            "arena-trap",
+            "sand-force"
+        ],
+        "forms": [
+            "dugtrio"
+        ],
+        "types": [
+            "ground"
+        ],
+        "stats": {
+            "hp": 35,
+            "attack": 100,
+            "defense": 50,
+            "special-attack": 50,
+            "special-defense": 70,
+            "speed": 120
+        },
+        "species": "dugtrio",
+        "cry_file": "dugtrio",
+        "previous_evolution": "diglett",
+        "next_evolution": null
+    },
+    {
+        "id": 52,
+        "name": "meowth",
+        "base_experience": 58,
+        "height": 4,
+        "weight": 42,
+        "abilities": [
+            "pickup",
+            "technician",
+            "unnerve"
+        ],
+        "forms": [
+            "meowth"
+        ],
+        "types": [
+            "normal"
+        ],
+        "stats": {
+            "hp": 40,
+            "attack": 45,
+            "defense": 35,
+            "special-attack": 40,
+            "special-defense": 40,
+            "speed": 90
+        },
+        "species": "meowth",
+        "cry_file": "meowth",
+        "previous_evolution": null,
+        "next_evolution": [
+            "persian",
+            "perrserker"
+        ]
+    },
+    {
+        "id": 53,
+        "name": "persian",
+        "base_experience": 154,
+        "height": 10,
+        "weight": 320,
+        "abilities": [
+            "limber",
+            "technician",
+            "unnerve"
+        ],
+        "forms": [
+            "persian"
+        ],
+        "types": [
+            "normal"
+        ],
+        "stats": {
+            "hp": 65,
+            "attack": 70,
+            "defense": 60,
+            "special-attack": 65,
+            "special-defense": 65,
+            "speed": 115
+        },
+        "species": "persian",
+        "cry_file": "persian",
+        "previous_evolution": "meowth",
+        "next_evolution": null
+    },
+    {
+        "id": 54,
+        "name": "psyduck",
+        "base_experience": 64,
+        "height": 8,
+        "weight": 196,
+        "abilities": [
+            "damp",
+            "cloud-nine",
+            "swift-swim"
+        ],
+        "forms": [
+            "psyduck"
+        ],
+        "types": [
+            "water"
+        ],
+        "stats": {
+            "hp": 50,
+            "attack": 52,
+            "defense": 48,
+            "special-attack": 65,
+            "special-defense": 50,
+            "speed": 55
+        },
+        "species": "psyduck",
+        "cry_file": "psyduck",
+        "previous_evolution": null,
+        "next_evolution": [
+            "golduck"
+        ]
+    },
+    {
+        "id": 55,
+        "name": "golduck",
+        "base_experience": 175,
+        "height": 17,
+        "weight": 766,
+        "abilities": [
+            "damp",
+            "cloud-nine",
+            "swift-swim"
+        ],
+        "forms": [
+            "golduck"
+        ],
+        "types": [
+            "water"
+        ],
+        "stats": {
+            "hp": 80,
+            "attack": 82,
+            "defense": 78,
+            "special-attack": 95,
+            "special-defense": 80,
+            "speed": 85
+        },
+        "species": "golduck",
+        "cry_file": "golduck",
+        "previous_evolution": "psyduck",
+        "next_evolution": null
+    },
+    {
+        "id": 56,
+        "name": "mankey",
+        "base_experience": 61,
+        "height": 5,
+        "weight": 280,
+        "abilities": [
+            "vital-spirit",
+            "anger-point",
+            "defiant"
+        ],
+        "forms": [
+            "mankey"
+        ],
+        "types": [
+            "fighting"
+        ],
+        "stats": {
+            "hp": 40,
+            "attack": 80,
+            "defense": 35,
+            "special-attack": 35,
+            "special-defense": 45,
+            "speed": 70
+        },
+        "species": "mankey",
+        "cry_file": "mankey",
+        "previous_evolution": null,
+        "next_evolution": [
+            "primeape"
+        ]
+    },
+    {
+        "id": 57,
+        "name": "primeape",
+        "base_experience": 159,
+        "height": 10,
+        "weight": 320,
+        "abilities": [
+            "vital-spirit",
+            "anger-point",
+            "defiant"
+        ],
+        "forms": [
+            "primeape"
+        ],
+        "types": [
+            "fighting"
+        ],
+        "stats": {
+            "hp": 65,
+            "attack": 105,
+            "defense": 60,
+            "special-attack": 60,
+            "special-defense": 70,
+            "speed": 95
+        },
+        "species": "primeape",
+        "cry_file": "primeape",
+        "previous_evolution": "mankey",
+        "next_evolution": [
+            "annihilape"
+        ]
+    },
+    {
+        "id": 58,
+        "name": "growlithe",
+        "base_experience": 70,
+        "height": 7,
+        "weight": 190,
+        "abilities": [
+            "intimidate",
+            "flash-fire",
+            "justified"
+        ],
+        "forms": [
+            "growlithe"
+        ],
+        "types": [
+            "fire"
+        ],
+        "stats": {
+            "hp": 55,
+            "attack": 70,
+            "defense": 45,
+            "special-attack": 70,
+            "special-defense": 50,
+            "speed": 60
+        },
+        "species": "growlithe",
+        "cry_file": "growlithe",
+        "previous_evolution": null,
+        "next_evolution": [
+            "arcanine"
+        ]
+    },
+    {
+        "id": 59,
+        "name": "arcanine",
+        "base_experience": 194,
+        "height": 19,
+        "weight": 1550,
+        "abilities": [
+            "intimidate",
+            "flash-fire",
+            "justified"
+        ],
+        "forms": [
+            "arcanine"
+        ],
+        "types": [
+            "fire"
+        ],
+        "stats": {
+            "hp": 90,
+            "attack": 110,
+            "defense": 80,
+            "special-attack": 100,
+            "special-defense": 80,
+            "speed": 95
+        },
+        "species": "arcanine",
+        "cry_file": "arcanine",
+        "previous_evolution": "growlithe",
+        "next_evolution": null
+    },
+    {
+        "id": 60,
+        "name": "poliwag",
+        "base_experience": 60,
+        "height": 6,
+        "weight": 124,
+        "abilities": [
+            "water-absorb",
+            "damp",
+            "swift-swim"
+        ],
+        "forms": [
+            "poliwag"
+        ],
+        "types": [
+            "water"
+        ],
+        "stats": {
+            "hp": 40,
+            "attack": 50,
+            "defense": 40,
+            "special-attack": 40,
+            "special-defense": 40,
+            "speed": 90
+        },
+        "species": "poliwag",
+        "cry_file": "poliwag",
+        "previous_evolution": null,
+        "next_evolution": [
+            "poliwhirl"
+        ]
+    },
+    {
+        "id": 61,
+        "name": "poliwhirl",
+        "base_experience": 135,
+        "height": 10,
+        "weight": 200,
+        "abilities": [
+            "water-absorb",
+            "damp",
+            "swift-swim"
+        ],
+        "forms": [
+            "poliwhirl"
+        ],
+        "types": [
+            "water"
+        ],
+        "stats": {
+            "hp": 65,
+            "attack": 65,
+            "defense": 65,
+            "special-attack": 50,
+            "special-defense": 50,
+            "speed": 90
+        },
+        "species": "poliwhirl",
+        "cry_file": "poliwhirl",
+        "previous_evolution": "poliwag",
+        "next_evolution": [
+            "poliwrath",
+            "politoed"
+        ]
+    },
+    {
+        "id": 62,
+        "name": "poliwrath",
+        "base_experience": 255,
+        "height": 13,
+        "weight": 540,
+        "abilities": [
+            "water-absorb",
+            "damp",
+            "swift-swim"
+        ],
+        "forms": [
+            "poliwrath"
+        ],
+        "types": [
+            "water",
+            "fighting"
+        ],
+        "stats": {
+            "hp": 90,
+            "attack": 95,
+            "defense": 95,
+            "special-attack": 70,
+            "special-defense": 90,
+            "speed": 70
+        },
+        "species": "poliwrath",
+        "cry_file": "poliwrath",
+        "previous_evolution": "poliwhirl",
+        "next_evolution": null
+    },
+    {
+        "id": 63,
+        "name": "abra",
+        "base_experience": 62,
+        "height": 9,
+        "weight": 195,
+        "abilities": [
+            "synchronize",
+            "inner-focus",
+            "magic-guard"
+        ],
+        "forms": [
+            "abra"
+        ],
+        "types": [
+            "psychic"
+        ],
+        "stats": {
+            "hp": 25,
+            "attack": 20,
+            "defense": 15,
+            "special-attack": 105,
+            "special-defense": 55,
+            "speed": 90
+        },
+        "species": "abra",
+        "cry_file": "abra",
+        "previous_evolution": null,
+        "next_evolution": [
+            "kadabra"
+        ]
+    },
+    {
+        "id": 64,
+        "name": "kadabra",
+        "base_experience": 140,
+        "height": 13,
+        "weight": 565,
+        "abilities": [
+            "synchronize",
+            "inner-focus",
+            "magic-guard"
+        ],
+        "forms": [
+            "kadabra"
+        ],
+        "types": [
+            "psychic"
+        ],
+        "stats": {
+            "hp": 40,
+            "attack": 35,
+            "defense": 30,
+            "special-attack": 120,
+            "special-defense": 70,
+            "speed": 105
+        },
+        "species": "kadabra",
+        "cry_file": "kadabra",
+        "previous_evolution": "abra",
+        "next_evolution": [
+            "alakazam"
+        ]
+    },
+    {
+        "id": 65,
+        "name": "alakazam",
+        "base_experience": 250,
+        "height": 15,
+        "weight": 480,
+        "abilities": [
+            "synchronize",
+            "inner-focus",
+            "magic-guard"
+        ],
+        "forms": [
+            "alakazam"
+        ],
+        "types": [
+            "psychic"
+        ],
+        "stats": {
+            "hp": 55,
+            "attack": 50,
+            "defense": 45,
+            "special-attack": 135,
+            "special-defense": 95,
+            "speed": 120
+        },
+        "species": "alakazam",
+        "cry_file": "alakazam",
+        "previous_evolution": "kadabra",
+        "next_evolution": null
+    },
+    {
+        "id": 66,
+        "name": "machop",
+        "base_experience": 61,
+        "height": 8,
+        "weight": 195,
+        "abilities": [
+            "guts",
+            "no-guard",
+            "steadfast"
+        ],
+        "forms": [
+            "machop"
+        ],
+        "types": [
+            "fighting"
+        ],
+        "stats": {
+            "hp": 70,
+            "attack": 80,
+            "defense": 50,
+            "special-attack": 35,
+            "special-defense": 35,
+            "speed": 35
+        },
+        "species": "machop",
+        "cry_file": "machop",
+        "previous_evolution": null,
+        "next_evolution": [
+            "machoke"
+        ]
+    },
+    {
+        "id": 67,
+        "name": "machoke",
+        "base_experience": 142,
+        "height": 15,
+        "weight": 705,
+        "abilities": [
+            "guts",
+            "no-guard",
+            "steadfast"
+        ],
+        "forms": [
+            "machoke"
+        ],
+        "types": [
+            "fighting"
+        ],
+        "stats": {
+            "hp": 80,
+            "attack": 100,
+            "defense": 70,
+            "special-attack": 50,
+            "special-defense": 60,
+            "speed": 45
+        },
+        "species": "machoke",
+        "cry_file": "machoke",
+        "previous_evolution": "machop",
+        "next_evolution": [
+            "machamp"
+        ]
+    },
+    {
+        "id": 68,
+        "name": "machamp",
+        "base_experience": 253,
+        "height": 16,
+        "weight": 1300,
+        "abilities": [
+            "guts",
+            "no-guard",
+            "steadfast"
+        ],
+        "forms": [
+            "machamp"
+        ],
+        "types": [
+            "fighting"
+        ],
+        "stats": {
+            "hp": 90,
+            "attack": 130,
+            "defense": 80,
+            "special-attack": 65,
+            "special-defense": 85,
+            "speed": 55
+        },
+        "species": "machamp",
+        "cry_file": "machamp",
+        "previous_evolution": "machoke",
+        "next_evolution": null
+    },
+    {
+        "id": 69,
+        "name": "bellsprout",
+        "base_experience": 60,
+        "height": 7,
+        "weight": 40,
+        "abilities": [
+            "chlorophyll",
+            "gluttony"
+        ],
+        "forms": [
+            "bellsprout"
+        ],
+        "types": [
+            "grass",
+            "poison"
+        ],
+        "stats": {
+            "hp": 50,
+            "attack": 75,
+            "defense": 35,
+            "special-attack": 70,
+            "special-defense": 30,
+            "speed": 40
+        },
+        "species": "bellsprout",
+        "cry_file": "bellsprout",
+        "previous_evolution": null,
+        "next_evolution": [
+            "weepinbell"
+        ]
+    },
+    {
+        "id": 70,
+        "name": "weepinbell",
+        "base_experience": 137,
+        "height": 10,
+        "weight": 64,
+        "abilities": [
+            "chlorophyll",
+            "gluttony"
+        ],
+        "forms": [
+            "weepinbell"
+        ],
+        "types": [
+            "grass",
+            "poison"
+        ],
+        "stats": {
+            "hp": 65,
+            "attack": 90,
+            "defense": 50,
+            "special-attack": 85,
+            "special-defense": 45,
+            "speed": 55
+        },
+        "species": "weepinbell",
+        "cry_file": "weepinbell",
+        "previous_evolution": "bellsprout",
+        "next_evolution": [
+            "victreebel"
+        ]
+    },
+    {
+        "id": 71,
+        "name": "victreebel",
+        "base_experience": 221,
+        "height": 17,
+        "weight": 155,
+        "abilities": [
+            "chlorophyll",
+            "gluttony"
+        ],
+        "forms": [
+            "victreebel"
+        ],
+        "types": [
+            "grass",
+            "poison"
+        ],
+        "stats": {
+            "hp": 80,
+            "attack": 105,
+            "defense": 65,
+            "special-attack": 100,
+            "special-defense": 70,
+            "speed": 70
+        },
+        "species": "victreebel",
+        "cry_file": "victreebel",
+        "previous_evolution": "weepinbell",
+        "next_evolution": null
+    },
+    {
+        "id": 72,
+        "name": "tentacool",
+        "base_experience": 67,
+        "height": 9,
+        "weight": 455,
+        "abilities": [
+            "clear-body",
+            "liquid-ooze",
+            "rain-dish"
+        ],
+        "forms": [
+            "tentacool"
+        ],
+        "types": [
+            "water",
+            "poison"
+        ],
+        "stats": {
+            "hp": 40,
+            "attack": 40,
+            "defense": 35,
+            "special-attack": 50,
+            "special-defense": 100,
+            "speed": 70
+        },
+        "species": "tentacool",
+        "cry_file": "tentacool",
+        "previous_evolution": null,
+        "next_evolution": [
+            "tentacruel"
+        ]
+    },
+    {
+        "id": 73,
+        "name": "tentacruel",
+        "base_experience": 180,
+        "height": 16,
+        "weight": 550,
+        "abilities": [
+            "clear-body",
+            "liquid-ooze",
+            "rain-dish"
+        ],
+        "forms": [
+            "tentacruel"
+        ],
+        "types": [
+            "water",
+            "poison"
+        ],
+        "stats": {
+            "hp": 80,
+            "attack": 70,
+            "defense": 65,
+            "special-attack": 80,
+            "special-defense": 120,
+            "speed": 100
+        },
+        "species": "tentacruel",
+        "cry_file": "tentacruel",
+        "previous_evolution": "tentacool",
+        "next_evolution": null
+    },
+    {
+        "id": 74,
+        "name": "geodude",
+        "base_experience": 60,
+        "height": 4,
+        "weight": 200,
+        "abilities": [
+            "rock-head",
+            "sturdy",
+            "sand-veil"
+        ],
+        "forms": [
+            "geodude"
+        ],
+        "types": [
+            "rock",
+            "ground"
+        ],
+        "stats": {
+            "hp": 40,
+            "attack": 80,
+            "defense": 100,
+            "special-attack": 30,
+            "special-defense": 30,
+            "speed": 20
+        },
+        "species": "geodude",
+        "cry_file": "geodude",
+        "previous_evolution": null,
+        "next_evolution": [
+            "graveler"
+        ]
+    },
+    {
+        "id": 75,
+        "name": "graveler",
+        "base_experience": 137,
+        "height": 10,
+        "weight": 1050,
+        "abilities": [
+            "rock-head",
+            "sturdy",
+            "sand-veil"
+        ],
+        "forms": [
+            "graveler"
+        ],
+        "types": [
+            "rock",
+            "ground"
+        ],
+        "stats": {
+            "hp": 55,
+            "attack": 95,
+            "defense": 115,
+            "special-attack": 45,
+            "special-defense": 45,
+            "speed": 35
+        },
+        "species": "graveler",
+        "cry_file": "graveler",
+        "previous_evolution": "geodude",
+        "next_evolution": [
+            "golem"
+        ]
+    },
+    {
+        "id": 76,
+        "name": "golem",
+        "base_experience": 223,
+        "height": 14,
+        "weight": 3000,
+        "abilities": [
+            "rock-head",
+            "sturdy",
+            "sand-veil"
+        ],
+        "forms": [
+            "golem"
+        ],
+        "types": [
+            "rock",
+            "ground"
+        ],
+        "stats": {
+            "hp": 80,
+            "attack": 120,
+            "defense": 130,
+            "special-attack": 55,
+            "special-defense": 65,
+            "speed": 45
+        },
+        "species": "golem",
+        "cry_file": "golem",
+        "previous_evolution": "graveler",
+        "next_evolution": null
+    },
+    {
+        "id": 77,
+        "name": "ponyta",
+        "base_experience": 82,
+        "height": 10,
+        "weight": 300,
+        "abilities": [
+            "run-away",
+            "flash-fire",
+            "flame-body"
+        ],
+        "forms": [
+            "ponyta"
+        ],
+        "types": [
+            "fire"
+        ],
+        "stats": {
+            "hp": 50,
+            "attack": 85,
+            "defense": 55,
+            "special-attack": 65,
+            "special-defense": 65,
+            "speed": 90
+        },
+        "species": "ponyta",
+        "cry_file": "ponyta",
+        "previous_evolution": null,
+        "next_evolution": [
+            "rapidash"
+        ]
+    },
+    {
+        "id": 78,
+        "name": "rapidash",
+        "base_experience": 175,
+        "height": 17,
+        "weight": 950,
+        "abilities": [
+            "run-away",
+            "flash-fire",
+            "flame-body"
+        ],
+        "forms": [
+            "rapidash"
+        ],
+        "types": [
+            "fire"
+        ],
+        "stats": {
+            "hp": 65,
+            "attack": 100,
+            "defense": 70,
+            "special-attack": 80,
+            "special-defense": 80,
+            "speed": 105
+        },
+        "species": "rapidash",
+        "cry_file": "rapidash",
+        "previous_evolution": "ponyta",
+        "next_evolution": null
+    },
+    {
+        "id": 79,
+        "name": "slowpoke",
+        "base_experience": 63,
+        "height": 12,
+        "weight": 360,
+        "abilities": [
+            "oblivious",
+            "own-tempo",
+            "regenerator"
+        ],
+        "forms": [
+            "slowpoke"
+        ],
+        "types": [
+            "water",
+            "psychic"
+        ],
+        "stats": {
+            "hp": 90,
+            "attack": 65,
+            "defense": 65,
+            "special-attack": 40,
+            "special-defense": 40,
+            "speed": 15
+        },
+        "species": "slowpoke",
+        "cry_file": "slowpoke",
+        "previous_evolution": null,
+        "next_evolution": [
+            "slowbro",
+            "slowking"
+        ]
+    },
+    {
+        "id": 80,
+        "name": "slowbro",
+        "base_experience": 172,
+        "height": 16,
+        "weight": 785,
+        "abilities": [
+            "oblivious",
+            "own-tempo",
+            "regenerator"
+        ],
+        "forms": [
+            "slowbro"
+        ],
+        "types": [
+            "water",
+            "psychic"
+        ],
+        "stats": {
+            "hp": 95,
+            "attack": 75,
+            "defense": 110,
+            "special-attack": 100,
+            "special-defense": 80,
+            "speed": 30
+        },
+        "species": "slowbro",
+        "cry_file": "slowbro",
+        "previous_evolution": "slowpoke",
+        "next_evolution": null
+    },
+    {
+        "id": 81,
+        "name": "magnemite",
+        "base_experience": 65,
+        "height": 3,
+        "weight": 60,
+        "abilities": [
+            "magnet-pull",
+            "sturdy",
+            "analytic"
+        ],
+        "forms": [
+            "magnemite"
+        ],
+        "types": [
+            "electric",
+            "steel"
+        ],
+        "stats": {
+            "hp": 25,
+            "attack": 35,
+            "defense": 70,
+            "special-attack": 95,
+            "special-defense": 55,
+            "speed": 45
+        },
+        "species": "magnemite",
+        "cry_file": "magnemite",
+        "previous_evolution": null,
+        "next_evolution": [
+            "magneton"
+        ]
+    },
+    {
+        "id": 82,
+        "name": "magneton",
+        "base_experience": 163,
+        "height": 10,
+        "weight": 600,
+        "abilities": [
+            "magnet-pull",
+            "sturdy",
+            "analytic"
+        ],
+        "forms": [
+            "magneton"
+        ],
+        "types": [
+            "electric",
+            "steel"
+        ],
+        "stats": {
+            "hp": 50,
+            "attack": 60,
+            "defense": 95,
+            "special-attack": 120,
+            "special-defense": 70,
+            "speed": 70
+        },
+        "species": "magneton",
+        "cry_file": "magneton",
+        "previous_evolution": "magnemite",
+        "next_evolution": [
+            "magnezone"
+        ]
+    },
+    {
+        "id": 83,
+        "name": "farfetchd",
+        "base_experience": 132,
+        "height": 8,
+        "weight": 150,
+        "abilities": [
+            "keen-eye",
+            "inner-focus",
+            "defiant"
+        ],
+        "forms": [
+            "farfetchd"
+        ],
+        "types": [
+            "normal",
+            "flying"
+        ],
+        "stats": {
+            "hp": 52,
+            "attack": 90,
+            "defense": 55,
+            "special-attack": 58,
+            "special-defense": 62,
+            "speed": 60
+        },
+        "species": "farfetchd",
+        "cry_file": "farfetchd",
+        "previous_evolution": null,
+        "next_evolution": [
+            "sirfetchd"
+        ]
+    },
+    {
+        "id": 84,
+        "name": "doduo",
+        "base_experience": 62,
+        "height": 14,
+        "weight": 392,
+        "abilities": [
+            "run-away",
+            "early-bird",
+            "tangled-feet"
+        ],
+        "forms": [
+            "doduo"
+        ],
+        "types": [
+            "normal",
+            "flying"
+        ],
+        "stats": {
+            "hp": 35,
+            "attack": 85,
+            "defense": 45,
+            "special-attack": 35,
+            "special-defense": 35,
+            "speed": 75
+        },
+        "species": "doduo",
+        "cry_file": "doduo",
+        "previous_evolution": null,
+        "next_evolution": [
+            "dodrio"
+        ]
+    },
+    {
+        "id": 85,
+        "name": "dodrio",
+        "base_experience": 165,
+        "height": 18,
+        "weight": 852,
+        "abilities": [
+            "run-away",
+            "early-bird",
+            "tangled-feet"
+        ],
+        "forms": [
+            "dodrio"
+        ],
+        "types": [
+            "normal",
+            "flying"
+        ],
+        "stats": {
+            "hp": 60,
+            "attack": 110,
+            "defense": 70,
+            "special-attack": 60,
+            "special-defense": 60,
+            "speed": 110
+        },
+        "species": "dodrio",
+        "cry_file": "dodrio",
+        "previous_evolution": "doduo",
+        "next_evolution": null
+    },
+    {
+        "id": 86,
+        "name": "seel",
+        "base_experience": 65,
+        "height": 11,
+        "weight": 900,
+        "abilities": [
+            "thick-fat",
+            "hydration",
+            "ice-body"
+        ],
+        "forms": [
+            "seel"
+        ],
+        "types": [
+            "water"
+        ],
+        "stats": {
+            "hp": 65,
+            "attack": 45,
+            "defense": 55,
+            "special-attack": 45,
+            "special-defense": 70,
+            "speed": 45
+        },
+        "species": "seel",
+        "cry_file": "seel",
+        "previous_evolution": null,
+        "next_evolution": [
+            "dewgong"
+        ]
+    },
+    {
+        "id": 87,
+        "name": "dewgong",
+        "base_experience": 166,
+        "height": 17,
+        "weight": 1200,
+        "abilities": [
+            "thick-fat",
+            "hydration",
+            "ice-body"
+        ],
+        "forms": [
+            "dewgong"
+        ],
+        "types": [
+            "water",
+            "ice"
+        ],
+        "stats": {
+            "hp": 90,
+            "attack": 70,
+            "defense": 80,
+            "special-attack": 70,
+            "special-defense": 95,
+            "speed": 70
+        },
+        "species": "dewgong",
+        "cry_file": "dewgong",
+        "previous_evolution": "seel",
+        "next_evolution": null
+    },
+    {
+        "id": 88,
+        "name": "grimer",
+        "base_experience": 65,
+        "height": 9,
+        "weight": 300,
+        "abilities": [
+            "stench",
+            "sticky-hold",
+            "poison-touch"
+        ],
+        "forms": [
+            "grimer"
+        ],
+        "types": [
+            "poison"
+        ],
+        "stats": {
+            "hp": 80,
+            "attack": 80,
+            "defense": 50,
+            "special-attack": 40,
+            "special-defense": 50,
+            "speed": 25
+        },
+        "species": "grimer",
+        "cry_file": "grimer",
+        "previous_evolution": null,
+        "next_evolution": [
+            "muk"
+        ]
+    },
+    {
+        "id": 89,
+        "name": "muk",
+        "base_experience": 175,
+        "height": 12,
+        "weight": 300,
+        "abilities": [
+            "stench",
+            "sticky-hold",
+            "poison-touch"
+        ],
+        "forms": [
+            "muk"
+        ],
+        "types": [
+            "poison"
+        ],
+        "stats": {
+            "hp": 105,
+            "attack": 105,
+            "defense": 75,
+            "special-attack": 65,
+            "special-defense": 100,
+            "speed": 50
+        },
+        "species": "muk",
+        "cry_file": "muk",
+        "previous_evolution": "grimer",
+        "next_evolution": null
+    },
+    {
+        "id": 90,
+        "name": "shellder",
+        "base_experience": 61,
+        "height": 3,
+        "weight": 40,
+        "abilities": [
+            "shell-armor",
+            "skill-link",
+            "overcoat"
+        ],
+        "forms": [
+            "shellder"
+        ],
+        "types": [
+            "water"
+        ],
+        "stats": {
+            "hp": 30,
+            "attack": 65,
+            "defense": 100,
+            "special-attack": 45,
+            "special-defense": 25,
+            "speed": 40
+        },
+        "species": "shellder",
+        "cry_file": "shellder",
+        "previous_evolution": null,
+        "next_evolution": [
+            "cloyster"
+        ]
+    },
+    {
+        "id": 91,
+        "name": "cloyster",
+        "base_experience": 184,
+        "height": 15,
+        "weight": 1325,
+        "abilities": [
+            "shell-armor",
+            "skill-link",
+            "overcoat"
+        ],
+        "forms": [
+            "cloyster"
+        ],
+        "types": [
+            "water",
+            "ice"
+        ],
+        "stats": {
+            "hp": 50,
+            "attack": 95,
+            "defense": 180,
+            "special-attack": 85,
+            "special-defense": 45,
+            "speed": 70
+        },
+        "species": "cloyster",
+        "cry_file": "cloyster",
+        "previous_evolution": "shellder",
+        "next_evolution": null
+    },
+    {
+        "id": 92,
+        "name": "gastly",
+        "base_experience": 62,
+        "height": 13,
+        "weight": 1,
+        "abilities": [
+            "levitate"
+        ],
+        "forms": [
+            "gastly"
+        ],
+        "types": [
+            "ghost",
+            "poison"
+        ],
+        "stats": {
+            "hp": 30,
+            "attack": 35,
+            "defense": 30,
+            "special-attack": 100,
+            "special-defense": 35,
+            "speed": 80
+        },
+        "species": "gastly",
+        "cry_file": "gastly",
+        "previous_evolution": null,
+        "next_evolution": [
+            "haunter"
+        ]
+    },
+    {
+        "id": 93,
+        "name": "haunter",
+        "base_experience": 142,
+        "height": 16,
+        "weight": 1,
+        "abilities": [
+            "levitate"
+        ],
+        "forms": [
+            "haunter"
+        ],
+        "types": [
+            "ghost",
+            "poison"
+        ],
+        "stats": {
+            "hp": 45,
+            "attack": 50,
+            "defense": 45,
+            "special-attack": 115,
+            "special-defense": 55,
+            "speed": 95
+        },
+        "species": "haunter",
+        "cry_file": "haunter",
+        "previous_evolution": "gastly",
+        "next_evolution": [
+            "gengar"
+        ]
+    },
+    {
+        "id": 94,
+        "name": "gengar",
+        "base_experience": 250,
+        "height": 15,
+        "weight": 405,
+        "abilities": [
+            "cursed-body"
+        ],
+        "forms": [
+            "gengar"
+        ],
+        "types": [
+            "ghost",
+            "poison"
+        ],
+        "stats": {
+            "hp": 60,
+            "attack": 65,
+            "defense": 60,
+            "special-attack": 130,
+            "special-defense": 75,
+            "speed": 110
+        },
+        "species": "gengar",
+        "cry_file": "gengar",
+        "previous_evolution": "haunter",
+        "next_evolution": null
+    },
+    {
+        "id": 95,
+        "name": "onix",
+        "base_experience": 77,
+        "height": 88,
+        "weight": 2100,
+        "abilities": [
+            "rock-head",
+            "sturdy",
+            "weak-armor"
+        ],
+        "forms": [
+            "onix"
+        ],
+        "types": [
+            "rock",
+            "ground"
+        ],
+        "stats": {
+            "hp": 35,
+            "attack": 45,
+            "defense": 160,
+            "special-attack": 30,
+            "special-defense": 45,
+            "speed": 70
+        },
+        "species": "onix",
+        "cry_file": "onix",
+        "previous_evolution": null,
+        "next_evolution": [
+            "steelix"
+        ]
+    },
+    {
+        "id": 96,
+        "name": "drowzee",
+        "base_experience": 66,
+        "height": 10,
+        "weight": 324,
+        "abilities": [
+            "insomnia",
+            "forewarn",
+            "inner-focus"
+        ],
+        "forms": [
+            "drowzee"
+        ],
+        "types": [
+            "psychic"
+        ],
+        "stats": {
+            "hp": 60,
+            "attack": 48,
+            "defense": 45,
+            "special-attack": 43,
+            "special-defense": 90,
+            "speed": 42
+        },
+        "species": "drowzee",
+        "cry_file": "drowzee",
+        "previous_evolution": null,
+        "next_evolution": [
+            "hypno"
+        ]
+    },
+    {
+        "id": 97,
+        "name": "hypno",
+        "base_experience": 169,
+        "height": 16,
+        "weight": 756,
+        "abilities": [
+            "insomnia",
+            "forewarn",
+            "inner-focus"
+        ],
+        "forms": [
+            "hypno"
+        ],
+        "types": [
+            "psychic"
+        ],
+        "stats": {
+            "hp": 85,
+            "attack": 73,
+            "defense": 70,
+            "special-attack": 73,
+            "special-defense": 115,
+            "speed": 67
+        },
+        "species": "hypno",
+        "cry_file": "hypno",
+        "previous_evolution": "drowzee",
+        "next_evolution": null
+    },
+    {
+        "id": 98,
+        "name": "krabby",
+        "base_experience": 65,
+        "height": 4,
+        "weight": 65,
+        "abilities": [
+            "hyper-cutter",
+            "shell-armor",
+            "sheer-force"
+        ],
+        "forms": [
+            "krabby"
+        ],
+        "types": [
+            "water"
+        ],
+        "stats": {
+            "hp": 30,
+            "attack": 105,
+            "defense": 90,
+            "special-attack": 25,
+            "special-defense": 25,
+            "speed": 50
+        },
+        "species": "krabby",
+        "cry_file": "krabby",
+        "previous_evolution": null,
+        "next_evolution": [
+            "kingler"
+        ]
+    },
+    {
+        "id": 99,
+        "name": "kingler",
+        "base_experience": 166,
+        "height": 13,
+        "weight": 600,
+        "abilities": [
+            "hyper-cutter",
+            "shell-armor",
+            "sheer-force"
+        ],
+        "forms": [
+            "kingler"
+        ],
+        "types": [
+            "water"
+        ],
+        "stats": {
+            "hp": 55,
+            "attack": 130,
+            "defense": 115,
+            "special-attack": 50,
+            "special-defense": 50,
+            "speed": 75
+        },
+        "species": "kingler",
+        "cry_file": "kingler",
+        "previous_evolution": "krabby",
+        "next_evolution": null
+    },
+    {
+        "id": 100,
+        "name": "voltorb",
+        "base_experience": 66,
+        "height": 5,
+        "weight": 104,
+        "abilities": [
+            "soundproof",
+            "static",
+            "aftermath"
+        ],
+        "forms": [
+            "voltorb"
+        ],
+        "types": [
+            "electric"
+        ],
+        "stats": {
+            "hp": 40,
+            "attack": 30,
+            "defense": 50,
+            "special-attack": 55,
+            "special-defense": 55,
+            "speed": 100
+        },
+        "species": "voltorb",
+        "cry_file": "voltorb",
+        "previous_evolution": null,
+        "next_evolution": [
+            "electrode"
+        ]
+    },
+    {
+        "id": 101,
+        "name": "electrode",
+        "base_experience": 172,
+        "height": 12,
+        "weight": 666,
+        "abilities": [
+            "soundproof",
+            "static",
+            "aftermath"
+        ],
+        "forms": [
+            "electrode"
+        ],
+        "types": [
+            "electric"
+        ],
+        "stats": {
+            "hp": 60,
+            "attack": 50,
+            "defense": 70,
+            "special-attack": 80,
+            "special-defense": 80,
+            "speed": 150
+        },
+        "species": "electrode",
+        "cry_file": "electrode",
+        "previous_evolution": "voltorb",
+        "next_evolution": null
+    },
+    {
+        "id": 102,
+        "name": "exeggcute",
+        "base_experience": 65,
+        "height": 4,
+        "weight": 25,
+        "abilities": [
+            "chlorophyll",
+            "harvest"
+        ],
+        "forms": [
+            "exeggcute"
+        ],
+        "types": [
+            "grass",
+            "psychic"
+        ],
+        "stats": {
+            "hp": 60,
+            "attack": 40,
+            "defense": 80,
+            "special-attack": 60,
+            "special-defense": 45,
+            "speed": 40
+        },
+        "species": "exeggcute",
+        "cry_file": "exeggcute",
+        "previous_evolution": null,
+        "next_evolution": [
+            "exeggutor"
+        ]
+    },
+    {
+        "id": 103,
+        "name": "exeggutor",
+        "base_experience": 186,
+        "height": 20,
+        "weight": 1200,
+        "abilities": [
+            "chlorophyll",
+            "harvest"
+        ],
+        "forms": [
+            "exeggutor"
+        ],
+        "types": [
+            "grass",
+            "psychic"
+        ],
+        "stats": {
+            "hp": 95,
+            "attack": 95,
+            "defense": 85,
+            "special-attack": 125,
+            "special-defense": 75,
+            "speed": 55
+        },
+        "species": "exeggutor",
+        "cry_file": "exeggutor",
+        "previous_evolution": "exeggcute",
+        "next_evolution": null
+    },
+    {
+        "id": 104,
+        "name": "cubone",
+        "base_experience": 64,
+        "height": 4,
+        "weight": 65,
+        "abilities": [
+            "rock-head",
+            "lightning-rod",
+            "battle-armor"
+        ],
+        "forms": [
+            "cubone"
+        ],
+        "types": [
+            "ground"
+        ],
+        "stats": {
+            "hp": 50,
+            "attack": 50,
+            "defense": 95,
+            "special-attack": 40,
+            "special-defense": 50,
+            "speed": 35
+        },
+        "species": "cubone",
+        "cry_file": "cubone",
+        "previous_evolution": null,
+        "next_evolution": [
+            "marowak"
+        ]
+    },
+    {
+        "id": 105,
+        "name": "marowak",
+        "base_experience": 149,
+        "height": 10,
+        "weight": 450,
+        "abilities": [
+            "rock-head",
+            "lightning-rod",
+            "battle-armor"
+        ],
+        "forms": [
+            "marowak"
+        ],
+        "types": [
+            "ground"
+        ],
+        "stats": {
+            "hp": 60,
+            "attack": 80,
+            "defense": 110,
+            "special-attack": 50,
+            "special-defense": 80,
+            "speed": 45
+        },
+        "species": "marowak",
+        "cry_file": "marowak",
+        "previous_evolution": "cubone",
+        "next_evolution": null
+    },
+    {
+        "id": 106,
+        "name": "hitmonlee",
+        "base_experience": 159,
+        "height": 15,
+        "weight": 498,
+        "abilities": [
+            "limber",
+            "reckless",
+            "unburden"
+        ],
+        "forms": [
+            "hitmonlee"
+        ],
+        "types": [
+            "fighting"
+        ],
+        "stats": {
+            "hp": 50,
+            "attack": 120,
+            "defense": 53,
+            "special-attack": 35,
+            "special-defense": 110,
+            "speed": 87
+        },
+        "species": "hitmonlee",
+        "cry_file": "hitmonlee",
+        "previous_evolution": "tyrogue",
+        "next_evolution": null
+    },
+    {
+        "id": 107,
+        "name": "hitmonchan",
+        "base_experience": 159,
+        "height": 14,
+        "weight": 502,
+        "abilities": [
+            "keen-eye",
+            "iron-fist",
+            "inner-focus"
+        ],
+        "forms": [
+            "hitmonchan"
+        ],
+        "types": [
+            "fighting"
+        ],
+        "stats": {
+            "hp": 50,
+            "attack": 105,
+            "defense": 79,
+            "special-attack": 35,
+            "special-defense": 110,
+            "speed": 76
+        },
+        "species": "hitmonchan",
+        "cry_file": "hitmonchan",
+        "previous_evolution": "tyrogue",
+        "next_evolution": null
+    },
+    {
+        "id": 108,
+        "name": "lickitung",
+        "base_experience": 77,
+        "height": 12,
+        "weight": 655,
+        "abilities": [
+            "own-tempo",
+            "oblivious",
+            "cloud-nine"
+        ],
+        "forms": [
+            "lickitung"
+        ],
+        "types": [
+            "normal"
+        ],
+        "stats": {
+            "hp": 90,
+            "attack": 55,
+            "defense": 75,
+            "special-attack": 60,
+            "special-defense": 75,
+            "speed": 30
+        },
+        "species": "lickitung",
+        "cry_file": "lickitung",
+        "previous_evolution": null,
+        "next_evolution": [
+            "lickilicky"
+        ]
+    },
+    {
+        "id": 109,
+        "name": "koffing",
+        "base_experience": 68,
+        "height": 6,
+        "weight": 10,
+        "abilities": [
+            "levitate",
+            "neutralizing-gas",
+            "stench"
+        ],
+        "forms": [
+            "koffing"
+        ],
+        "types": [
+            "poison"
+        ],
+        "stats": {
+            "hp": 40,
+            "attack": 65,
+            "defense": 95,
+            "special-attack": 60,
+            "special-defense": 45,
+            "speed": 35
+        },
+        "species": "koffing",
+        "cry_file": "koffing",
+        "previous_evolution": null,
+        "next_evolution": [
+            "weezing"
+        ]
+    },
+    {
+        "id": 110,
+        "name": "weezing",
+        "base_experience": 172,
+        "height": 12,
+        "weight": 95,
+        "abilities": [
+            "levitate",
+            "neutralizing-gas",
+            "stench"
+        ],
+        "forms": [
+            "weezing"
+        ],
+        "types": [
+            "poison"
+        ],
+        "stats": {
+            "hp": 65,
+            "attack": 90,
+            "defense": 120,
+            "special-attack": 85,
+            "special-defense": 70,
+            "speed": 60
+        },
+        "species": "weezing",
+        "cry_file": "weezing",
+        "previous_evolution": "koffing",
+        "next_evolution": null
+    },
+    {
+        "id": 111,
+        "name": "rhyhorn",
+        "base_experience": 69,
+        "height": 10,
+        "weight": 1150,
+        "abilities": [
+            "lightning-rod",
+            "rock-head",
+            "reckless"
+        ],
+        "forms": [
+            "rhyhorn"
+        ],
+        "types": [
+            "ground",
+            "rock"
+        ],
+        "stats": {
+            "hp": 80,
+            "attack": 85,
+            "defense": 95,
+            "special-attack": 30,
+            "special-defense": 30,
+            "speed": 25
+        },
+        "species": "rhyhorn",
+        "cry_file": "rhyhorn",
+        "previous_evolution": null,
+        "next_evolution": [
+            "rhydon"
+        ]
+    },
+    {
+        "id": 112,
+        "name": "rhydon",
+        "base_experience": 170,
+        "height": 19,
+        "weight": 1200,
+        "abilities": [
+            "lightning-rod",
+            "rock-head",
+            "reckless"
+        ],
+        "forms": [
+            "rhydon"
+        ],
+        "types": [
+            "ground",
+            "rock"
+        ],
+        "stats": {
+            "hp": 105,
+            "attack": 130,
+            "defense": 120,
+            "special-attack": 45,
+            "special-defense": 45,
+            "speed": 40
+        },
+        "species": "rhydon",
+        "cry_file": "rhydon",
+        "previous_evolution": "rhyhorn",
+        "next_evolution": [
+            "rhyperior"
+        ]
+    },
+    {
+        "id": 113,
+        "name": "chansey",
+        "base_experience": 395,
+        "height": 11,
+        "weight": 346,
+        "abilities": [
+            "natural-cure",
+            "serene-grace",
+            "healer"
+        ],
+        "forms": [
+            "chansey"
+        ],
+        "types": [
+            "normal"
+        ],
+        "stats": {
+            "hp": 250,
+            "attack": 5,
+            "defense": 5,
+            "special-attack": 35,
+            "special-defense": 105,
+            "speed": 50
+        },
+        "species": "chansey",
+        "cry_file": "chansey",
+        "previous_evolution": "happiny",
+        "next_evolution": [
+            "blissey"
+        ]
+    },
+    {
+        "id": 114,
+        "name": "tangela",
+        "base_experience": 87,
+        "height": 10,
+        "weight": 350,
+        "abilities": [
+            "chlorophyll",
+            "leaf-guard",
+            "regenerator"
+        ],
+        "forms": [
+            "tangela"
+        ],
+        "types": [
+            "grass"
+        ],
+        "stats": {
+            "hp": 65,
+            "attack": 55,
+            "defense": 115,
+            "special-attack": 100,
+            "special-defense": 40,
+            "speed": 60
+        },
+        "species": "tangela",
+        "cry_file": "tangela",
+        "previous_evolution": null,
+        "next_evolution": [
+            "tangrowth"
+        ]
+    },
+    {
+        "id": 115,
+        "name": "kangaskhan",
+        "base_experience": 172,
+        "height": 22,
+        "weight": 800,
+        "abilities": [
+            "early-bird",
+            "scrappy",
+            "inner-focus"
+        ],
+        "forms": [
+            "kangaskhan"
+        ],
+        "types": [
+            "normal"
+        ],
+        "stats": {
+            "hp": 105,
+            "attack": 95,
+            "defense": 80,
+            "special-attack": 40,
+            "special-defense": 80,
+            "speed": 90
+        },
+        "species": "kangaskhan",
+        "cry_file": "kangaskhan",
+        "previous_evolution": null,
+        "next_evolution": null
+    },
+    {
+        "id": 116,
+        "name": "horsea",
+        "base_experience": 59,
+        "height": 4,
+        "weight": 80,
+        "abilities": [
+            "swift-swim",
+            "sniper",
+            "damp"
+        ],
+        "forms": [
+            "horsea"
+        ],
+        "types": [
+            "water"
+        ],
+        "stats": {
+            "hp": 30,
+            "attack": 40,
+            "defense": 70,
+            "special-attack": 70,
+            "special-defense": 25,
+            "speed": 60
+        },
+        "species": "horsea",
+        "cry_file": "horsea",
+        "previous_evolution": null,
+        "next_evolution": [
+            "seadra"
+        ]
+    },
+    {
+        "id": 117,
+        "name": "seadra",
+        "base_experience": 154,
+        "height": 12,
+        "weight": 250,
+        "abilities": [
+            "poison-point",
+            "sniper",
+            "damp"
+        ],
+        "forms": [
+            "seadra"
+        ],
+        "types": [
+            "water"
+        ],
+        "stats": {
+            "hp": 55,
+            "attack": 65,
+            "defense": 95,
+            "special-attack": 95,
+            "special-defense": 45,
+            "speed": 85
+        },
+        "species": "seadra",
+        "cry_file": "seadra",
+        "previous_evolution": "horsea",
+        "next_evolution": [
+            "kingdra"
+        ]
+    },
+    {
+        "id": 118,
+        "name": "goldeen",
+        "base_experience": 64,
+        "height": 6,
+        "weight": 150,
+        "abilities": [
+            "swift-swim",
+            "water-veil",
+            "lightning-rod"
+        ],
+        "forms": [
+            "goldeen"
+        ],
+        "types": [
+            "water"
+        ],
+        "stats": {
+            "hp": 45,
+            "attack": 67,
+            "defense": 60,
+            "special-attack": 35,
+            "special-defense": 50,
+            "speed": 63
+        },
+        "species": "goldeen",
+        "cry_file": "goldeen",
+        "previous_evolution": null,
+        "next_evolution": [
+            "seaking"
+        ]
+    },
+    {
+        "id": 119,
+        "name": "seaking",
+        "base_experience": 158,
+        "height": 13,
+        "weight": 390,
+        "abilities": [
+            "swift-swim",
+            "water-veil",
+            "lightning-rod"
+        ],
+        "forms": [
+            "seaking"
+        ],
+        "types": [
+            "water"
+        ],
+        "stats": {
+            "hp": 80,
+            "attack": 92,
+            "defense": 65,
+            "special-attack": 65,
+            "special-defense": 80,
+            "speed": 68
+        },
+        "species": "seaking",
+        "cry_file": "seaking",
+        "previous_evolution": "goldeen",
+        "next_evolution": null
+    },
+    {
+        "id": 120,
+        "name": "staryu",
+        "base_experience": 68,
+        "height": 8,
+        "weight": 345,
+        "abilities": [
+            "illuminate",
+            "natural-cure",
+            "analytic"
+        ],
+        "forms": [
+            "staryu"
+        ],
+        "types": [
+            "water"
+        ],
+        "stats": {
+            "hp": 30,
+            "attack": 45,
+            "defense": 55,
+            "special-attack": 70,
+            "special-defense": 55,
+            "speed": 85
+        },
+        "species": "staryu",
+        "cry_file": "staryu",
+        "previous_evolution": null,
+        "next_evolution": [
+            "starmie"
+        ]
+    },
+    {
+        "id": 121,
+        "name": "starmie",
+        "base_experience": 182,
+        "height": 11,
+        "weight": 800,
+        "abilities": [
+            "illuminate",
+            "natural-cure",
+            "analytic"
+        ],
+        "forms": [
+            "starmie"
+        ],
+        "types": [
+            "water",
+            "psychic"
+        ],
+        "stats": {
+            "hp": 60,
+            "attack": 75,
+            "defense": 85,
+            "special-attack": 100,
+            "special-defense": 85,
+            "speed": 115
+        },
+        "species": "starmie",
+        "cry_file": "starmie",
+        "previous_evolution": "staryu",
+        "next_evolution": null
+    },
+    {
+        "id": 122,
+        "name": "mr-mime",
+        "base_experience": 161,
+        "height": 13,
+        "weight": 545,
+        "abilities": [
+            "soundproof",
+            "filter",
+            "technician"
+        ],
+        "forms": [
+            "mr-mime"
+        ],
+        "types": [
+            "psychic",
+            "fairy"
+        ],
+        "stats": {
+            "hp": 40,
+            "attack": 45,
+            "defense": 65,
+            "special-attack": 100,
+            "special-defense": 120,
+            "speed": 90
+        },
+        "species": "mr-mime",
+        "cry_file": "mr_mime",
+        "previous_evolution": "mime-jr",
+        "next_evolution": [
+            "mr-rime"
+        ]
+    },
+    {
+        "id": 123,
+        "name": "scyther",
+        "base_experience": 100,
+        "height": 15,
+        "weight": 560,
+        "abilities": [
+            "swarm",
+            "technician",
+            "steadfast"
+        ],
+        "forms": [
+            "scyther"
+        ],
+        "types": [
+            "bug",
+            "flying"
+        ],
+        "stats": {
+            "hp": 70,
+            "attack": 110,
+            "defense": 80,
+            "special-attack": 55,
+            "special-defense": 80,
+            "speed": 105
+        },
+        "species": "scyther",
+        "cry_file": "scyther",
+        "previous_evolution": null,
+        "next_evolution": [
+            "scizor",
+            "kleavor"
+        ]
+    },
+    {
+        "id": 124,
+        "name": "jynx",
+        "base_experience": 159,
+        "height": 14,
+        "weight": 406,
+        "abilities": [
+            "oblivious",
+            "forewarn",
+            "dry-skin"
+        ],
+        "forms": [
+            "jynx"
+        ],
+        "types": [
+            "ice",
+            "psychic"
+        ],
+        "stats": {
+            "hp": 65,
+            "attack": 50,
+            "defense": 35,
+            "special-attack": 115,
+            "special-defense": 95,
+            "speed": 95
+        },
+        "species": "jynx",
+        "cry_file": "jynx",
+        "previous_evolution": "smoochum",
+        "next_evolution": null
+    },
+    {
+        "id": 125,
+        "name": "electabuzz",
+        "base_experience": 172,
+        "height": 11,
+        "weight": 300,
+        "abilities": [
+            "static",
+            "vital-spirit"
+        ],
+        "forms": [
+            "electabuzz"
+        ],
+        "types": [
+            "electric"
+        ],
+        "stats": {
+            "hp": 65,
+            "attack": 83,
+            "defense": 57,
+            "special-attack": 95,
+            "special-defense": 85,
+            "speed": 105
+        },
+        "species": "electabuzz",
+        "cry_file": "electabuzz",
+        "previous_evolution": "elekid",
+        "next_evolution": [
+            "electivire"
+        ]
+    },
+    {
+        "id": 126,
+        "name": "magmar",
+        "base_experience": 173,
+        "height": 13,
+        "weight": 445,
+        "abilities": [
+            "flame-body",
+            "vital-spirit"
+        ],
+        "forms": [
+            "magmar"
+        ],
+        "types": [
+            "fire"
+        ],
+        "stats": {
+            "hp": 65,
+            "attack": 95,
+            "defense": 57,
+            "special-attack": 100,
+            "special-defense": 85,
+            "speed": 93
+        },
+        "species": "magmar",
+        "cry_file": "magmar",
+        "previous_evolution": "magby",
+        "next_evolution": [
+            "magmortar"
+        ]
+    },
+    {
+        "id": 127,
+        "name": "pinsir",
+        "base_experience": 175,
+        "height": 15,
+        "weight": 550,
+        "abilities": [
+            "hyper-cutter",
+            "mold-breaker",
+            "moxie"
+        ],
+        "forms": [
+            "pinsir"
+        ],
+        "types": [
+            "bug"
+        ],
+        "stats": {
+            "hp": 65,
+            "attack": 125,
+            "defense": 100,
+            "special-attack": 55,
+            "special-defense": 70,
+            "speed": 85
+        },
+        "species": "pinsir",
+        "cry_file": "pinsir",
+        "previous_evolution": null,
+        "next_evolution": null
+    },
+    {
+        "id": 128,
+        "name": "tauros",
+        "base_experience": 172,
+        "height": 14,
+        "weight": 884,
+        "abilities": [
+            "intimidate",
+            "anger-point",
+            "sheer-force"
+        ],
+        "forms": [
+            "tauros"
+        ],
+        "types": [
+            "normal"
+        ],
+        "stats": {
+            "hp": 75,
+            "attack": 100,
+            "defense": 95,
+            "special-attack": 40,
+            "special-defense": 70,
+            "speed": 110
+        },
+        "species": "tauros",
+        "cry_file": "tauros",
+        "previous_evolution": null,
+        "next_evolution": null
+    },
+    {
+        "id": 129,
+        "name": "magikarp",
+        "base_experience": 40,
+        "height": 9,
+        "weight": 100,
+        "abilities": [
+            "swift-swim",
+            "rattled"
+        ],
+        "forms": [
+            "magikarp"
+        ],
+        "types": [
+            "water"
+        ],
+        "stats": {
+            "hp": 20,
+            "attack": 10,
+            "defense": 55,
+            "special-attack": 15,
+            "special-defense": 20,
+            "speed": 80
+        },
+        "species": "magikarp",
+        "cry_file": "magikarp",
+        "previous_evolution": null,
+        "next_evolution": [
+            "gyarados"
+        ]
+    },
+    {
+        "id": 130,
+        "name": "gyarados",
+        "base_experience": 189,
+        "height": 65,
+        "weight": 2350,
+        "abilities": [
+            "intimidate",
+            "moxie"
+        ],
+        "forms": [
+            "gyarados"
+        ],
+        "types": [
+            "water",
+            "flying"
+        ],
+        "stats": {
+            "hp": 95,
+            "attack": 125,
+            "defense": 79,
+            "special-attack": 60,
+            "special-defense": 100,
+            "speed": 81
+        },
+        "species": "gyarados",
+        "cry_file": "gyarados",
+        "previous_evolution": "magikarp",
+        "next_evolution": null
+    },
+    {
+        "id": 131,
+        "name": "lapras",
+        "base_experience": 187,
+        "height": 25,
+        "weight": 2200,
+        "abilities": [
+            "water-absorb",
+            "shell-armor",
+            "hydration"
+        ],
+        "forms": [
+            "lapras"
+        ],
+        "types": [
+            "water",
+            "ice"
+        ],
+        "stats": {
+            "hp": 130,
+            "attack": 85,
+            "defense": 80,
+            "special-attack": 85,
+            "special-defense": 95,
+            "speed": 60
+        },
+        "species": "lapras",
+        "cry_file": "lapras",
+        "previous_evolution": null,
+        "next_evolution": null
+    },
+    {
+        "id": 132,
+        "name": "ditto",
+        "base_experience": 101,
+        "height": 3,
+        "weight": 40,
+        "abilities": [
+            "limber",
+            "imposter"
+        ],
+        "forms": [
+            "ditto"
+        ],
+        "types": [
+            "normal"
+        ],
+        "stats": {
+            "hp": 48,
+            "attack": 48,
+            "defense": 48,
+            "special-attack": 48,
+            "special-defense": 48,
+            "speed": 48
+        },
+        "species": "ditto",
+        "cry_file": "ditto",
+        "previous_evolution": null,
+        "next_evolution": null
+    },
+    {
+        "id": 133,
+        "name": "eevee",
+        "base_experience": 65,
+        "height": 3,
+        "weight": 65,
+        "abilities": [
+            "run-away",
+            "adaptability",
+            "anticipation"
+        ],
+        "forms": [
+            "eevee"
+        ],
+        "types": [
+            "normal"
+        ],
+        "stats": {
+            "hp": 55,
+            "attack": 55,
+            "defense": 50,
+            "special-attack": 45,
+            "special-defense": 65,
+            "speed": 55
+        },
+        "species": "eevee",
+        "cry_file": "eevee",
+        "previous_evolution": null,
+        "next_evolution": [
+            "vaporeon",
+            "jolteon",
+            "flareon",
+            "espeon",
+            "umbreon",
+            "leafeon",
+            "glaceon",
+            "sylveon"
+        ]
+    },
+    {
+        "id": 134,
+        "name": "vaporeon",
+        "base_experience": 184,
+        "height": 10,
+        "weight": 290,
+        "abilities": [
+            "water-absorb",
+            "hydration"
+        ],
+        "forms": [
+            "vaporeon"
+        ],
+        "types": [
+            "water"
+        ],
+        "stats": {
+            "hp": 130,
+            "attack": 65,
+            "defense": 60,
+            "special-attack": 110,
+            "special-defense": 95,
+            "speed": 65
+        },
+        "species": "vaporeon",
+        "cry_file": "vaporeon",
+        "previous_evolution": "eevee",
+        "next_evolution": null
+    },
+    {
+        "id": 135,
+        "name": "jolteon",
+        "base_experience": 184,
+        "height": 8,
+        "weight": 245,
+        "abilities": [
+            "volt-absorb",
+            "quick-feet"
+        ],
+        "forms": [
+            "jolteon"
+        ],
+        "types": [
+            "electric"
+        ],
+        "stats": {
+            "hp": 65,
+            "attack": 65,
+            "defense": 60,
+            "special-attack": 110,
+            "special-defense": 95,
+            "speed": 130
+        },
+        "species": "jolteon",
+        "cry_file": "jolteon",
+        "previous_evolution": "eevee",
+        "next_evolution": null
+    },
+    {
+        "id": 136,
+        "name": "flareon",
+        "base_experience": 184,
+        "height": 9,
+        "weight": 250,
+        "abilities": [
+            "flash-fire",
+            "guts"
+        ],
+        "forms": [
+            "flareon"
+        ],
+        "types": [
+            "fire"
+        ],
+        "stats": {
+            "hp": 65,
+            "attack": 130,
+            "defense": 60,
+            "special-attack": 95,
+            "special-defense": 110,
+            "speed": 65
+        },
+        "species": "flareon",
+        "cry_file": "flareon",
+        "previous_evolution": "eevee",
+        "next_evolution": null
+    },
+    {
+        "id": 137,
+        "name": "porygon",
+        "base_experience": 79,
+        "height": 8,
+        "weight": 365,
+        "abilities": [
+            "trace",
+            "download",
+            "analytic"
+        ],
+        "forms": [
+            "porygon"
+        ],
+        "types": [
+            "normal"
+        ],
+        "stats": {
+            "hp": 65,
+            "attack": 60,
+            "defense": 70,
+            "special-attack": 85,
+            "special-defense": 75,
+            "speed": 40
+        },
+        "species": "porygon",
+        "cry_file": "porygon",
+        "previous_evolution": null,
+        "next_evolution": [
+            "porygon2"
+        ]
+    },
+    {
+        "id": 138,
+        "name": "omanyte",
+        "base_experience": 71,
+        "height": 4,
+        "weight": 75,
+        "abilities": [
+            "swift-swim",
+            "shell-armor",
+            "weak-armor"
+        ],
+        "forms": [
+            "omanyte"
+        ],
+        "types": [
+            "rock",
+            "water"
+        ],
+        "stats": {
+            "hp": 35,
+            "attack": 40,
+            "defense": 100,
+            "special-attack": 90,
+            "special-defense": 55,
+            "speed": 35
+        },
+        "species": "omanyte",
+        "cry_file": "omanyte",
+        "previous_evolution": null,
+        "next_evolution": [
+            "omastar"
+        ]
+    },
+    {
+        "id": 139,
+        "name": "omastar",
+        "base_experience": 173,
+        "height": 10,
+        "weight": 350,
+        "abilities": [
+            "swift-swim",
+            "shell-armor",
+            "weak-armor"
+        ],
+        "forms": [
+            "omastar"
+        ],
+        "types": [
+            "rock",
+            "water"
+        ],
+        "stats": {
+            "hp": 70,
+            "attack": 60,
+            "defense": 125,
+            "special-attack": 115,
+            "special-defense": 70,
+            "speed": 55
+        },
+        "species": "omastar",
+        "cry_file": "omastar",
+        "previous_evolution": "omanyte",
+        "next_evolution": null
+    },
+    {
+        "id": 140,
+        "name": "kabuto",
+        "base_experience": 71,
+        "height": 5,
+        "weight": 115,
+        "abilities": [
+            "swift-swim",
+            "battle-armor",
+            "weak-armor"
+        ],
+        "forms": [
+            "kabuto"
+        ],
+        "types": [
+            "rock",
+            "water"
+        ],
+        "stats": {
+            "hp": 30,
+            "attack": 80,
+            "defense": 90,
+            "special-attack": 55,
+            "special-defense": 45,
+            "speed": 55
+        },
+        "species": "kabuto",
+        "cry_file": "kabuto",
+        "previous_evolution": null,
+        "next_evolution": [
+            "kabutops"
+        ]
+    },
+    {
+        "id": 141,
+        "name": "kabutops",
+        "base_experience": 173,
+        "height": 13,
+        "weight": 405,
+        "abilities": [
+            "swift-swim",
+            "battle-armor",
+            "weak-armor"
+        ],
+        "forms": [
+            "kabutops"
+        ],
+        "types": [
+            "rock",
+            "water"
+        ],
+        "stats": {
+            "hp": 60,
+            "attack": 115,
+            "defense": 105,
+            "special-attack": 65,
+            "special-defense": 70,
+            "speed": 80
+        },
+        "species": "kabutops",
+        "cry_file": "kabutops",
+        "previous_evolution": "kabuto",
+        "next_evolution": null
+    },
+    {
+        "id": 142,
+        "name": "aerodactyl",
+        "base_experience": 180,
+        "height": 18,
+        "weight": 590,
+        "abilities": [
+            "rock-head",
+            "pressure",
+            "unnerve"
+        ],
+        "forms": [
+            "aerodactyl"
+        ],
+        "types": [
+            "rock",
+            "flying"
+        ],
+        "stats": {
+            "hp": 80,
+            "attack": 105,
+            "defense": 65,
+            "special-attack": 60,
+            "special-defense": 75,
+            "speed": 130
+        },
+        "species": "aerodactyl",
+        "cry_file": "aerodactyl",
+        "previous_evolution": null,
+        "next_evolution": null
+    },
+    {
+        "id": 143,
+        "name": "snorlax",
+        "base_experience": 189,
+        "height": 21,
+        "weight": 4600,
+        "abilities": [
+            "immunity",
+            "thick-fat",
+            "gluttony"
+        ],
+        "forms": [
+            "snorlax"
+        ],
+        "types": [
+            "normal"
+        ],
+        "stats": {
+            "hp": 160,
+            "attack": 110,
+            "defense": 65,
+            "special-attack": 65,
+            "special-defense": 110,
+            "speed": 30
+        },
+        "species": "snorlax",
+        "cry_file": "snorlax",
+        "previous_evolution": "munchlax",
+        "next_evolution": null
+    },
+    {
+        "id": 144,
+        "name": "articuno",
+        "base_experience": 290,
+        "height": 17,
+        "weight": 554,
+        "abilities": [
+            "pressure",
+            "snow-cloak"
+        ],
+        "forms": [
+            "articuno"
+        ],
+        "types": [
+            "ice",
+            "flying"
+        ],
+        "stats": {
+            "hp": 90,
+            "attack": 85,
+            "defense": 100,
+            "special-attack": 95,
+            "special-defense": 125,
+            "speed": 85
+        },
+        "species": "articuno",
+        "cry_file": "articuno",
+        "previous_evolution": null,
+        "next_evolution": null
+    },
+    {
+        "id": 145,
+        "name": "zapdos",
+        "base_experience": 290,
+        "height": 16,
+        "weight": 526,
+        "abilities": [
+            "pressure",
+            "static"
+        ],
+        "forms": [
+            "zapdos"
+        ],
+        "types": [
+            "electric",
+            "flying"
+        ],
+        "stats": {
+            "hp": 90,
+            "attack": 90,
+            "defense": 85,
+            "special-attack": 125,
+            "special-defense": 90,
+            "speed": 100
+        },
+        "species": "zapdos",
+        "cry_file": "zapdos",
+        "previous_evolution": null,
+        "next_evolution": null
+    },
+    {
+        "id": 146,
+        "name": "moltres",
+        "base_experience": 290,
+        "height": 20,
+        "weight": 600,
+        "abilities": [
+            "pressure",
+            "flame-body"
+        ],
+        "forms": [
+            "moltres"
+        ],
+        "types": [
+            "fire",
+            "flying"
+        ],
+        "stats": {
+            "hp": 90,
+            "attack": 100,
+            "defense": 90,
+            "special-attack": 125,
+            "special-defense": 85,
+            "speed": 90
+        },
+        "species": "moltres",
+        "cry_file": "moltres",
+        "previous_evolution": null,
+        "next_evolution": null
+    },
+    {
+        "id": 147,
+        "name": "dratini",
+        "base_experience": 60,
+        "height": 18,
+        "weight": 33,
+        "abilities": [
+            "shed-skin",
+            "marvel-scale"
+        ],
+        "forms": [
+            "dratini"
+        ],
+        "types": [
+            "dragon"
+        ],
+        "stats": {
+            "hp": 41,
+            "attack": 64,
+            "defense": 45,
+            "special-attack": 50,
+            "special-defense": 50,
+            "speed": 50
+        },
+        "species": "dratini",
+        "cry_file": "dratini",
+        "previous_evolution": null,
+        "next_evolution": [
+            "dragonair"
+        ]
+    },
+    {
+        "id": 148,
+        "name": "dragonair",
+        "base_experience": 147,
+        "height": 40,
+        "weight": 165,
+        "abilities": [
+            "shed-skin",
+            "marvel-scale"
+        ],
+        "forms": [
+            "dragonair"
+        ],
+        "types": [
+            "dragon"
+        ],
+        "stats": {
+            "hp": 61,
+            "attack": 84,
+            "defense": 65,
+            "special-attack": 70,
+            "special-defense": 70,
+            "speed": 70
+        },
+        "species": "dragonair",
+        "cry_file": "dragonair",
+        "previous_evolution": "dratini",
+        "next_evolution": [
+            "dragonite"
+        ]
+    },
+    {
+        "id": 149,
+        "name": "dragonite",
+        "base_experience": 300,
+        "height": 22,
+        "weight": 2100,
+        "abilities": [
+            "inner-focus",
+            "multiscale"
+        ],
+        "forms": [
+            "dragonite"
+        ],
+        "types": [
+            "dragon",
+            "flying"
+        ],
+        "stats": {
+            "hp": 91,
+            "attack": 134,
+            "defense": 95,
+            "special-attack": 100,
+            "special-defense": 100,
+            "speed": 80
+        },
+        "species": "dragonite",
+        "cry_file": "dragonite",
+        "previous_evolution": "dragonair",
+        "next_evolution": null
+    },
+    {
+        "id": 150,
+        "name": "mewtwo",
+        "base_experience": 340,
+        "height": 20,
+        "weight": 1220,
+        "abilities": [
+            "pressure",
+            "unnerve"
+        ],
+        "forms": [
+            "mewtwo"
+        ],
+        "types": [
+            "psychic"
+        ],
+        "stats": {
+            "hp": 106,
+            "attack": 110,
+            "defense": 90,
+            "special-attack": 154,
+            "special-defense": 90,
+            "speed": 130
+        },
+        "species": "mewtwo",
+        "cry_file": "mewtwo",
+        "previous_evolution": null,
+        "next_evolution": null
+    },
+    {
+        "id": 151,
+        "name": "mew",
+        "base_experience": 300,
+        "height": 4,
+        "weight": 40,
+        "abilities": [
+            "synchronize"
+        ],
+        "forms": [
+            "mew"
+        ],
+        "types": [
+            "psychic"
+        ],
+        "stats": {
+            "hp": 100,
+            "attack": 100,
+            "defense": 100,
+            "special-attack": 100,
+            "special-defense": 100,
+            "speed": 100
+        },
+        "species": "mew",
+        "cry_file": "mew",
+        "previous_evolution": null,
+        "next_evolution": null
+    }
+]
