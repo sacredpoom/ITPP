@@ -7,7 +7,9 @@ View detailed Pokémon data (ID, name, height, weight, stats, types).
 - Explore abilities and evolution chains for each Pokémon.
 - Beautifully designed, simple, and easy-to-use interface.
 
-screenshots here
+![Entry page in Green](Screen1.jpg)
+![Home Screen in Blue](Screen2.jpg)
+![Details Screen in Red](Screen3.jpg)
 
 ## Technologies Used
 - Android: Native Android development using Kotlin.
@@ -57,4 +59,4 @@ Contributions are welcome! If you would like to improve the app, please feel fre
 5. Create a new Pull Request
 
 ## License
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/sacredpoom/ITPP/blob/main/LICENSE.md) file for details.
