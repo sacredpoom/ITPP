@@ -18,6 +18,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.painterResource
+import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
 import com.google.gson.Gson
@@ -29,15 +30,86 @@ import java.io.IOException
 @Composable
 fun MainScreen(navController: NavController) {
     val context = LocalContext.current
-    val pokemonList = remember { loadPokemonData(context) }  // Load data from JSON
+    val pokemonList = remember { loadPokemonData(context) } // Load data from JSON
+
+    // List of filter types for navigation
+    val filterTypes = listOf("All Types", "Grass", "Poison", "Fire", "Flying", "Water", "Bug", "Normal", "Electric", "Ground", "Fairy", "Fighting", "Psychic", "Rock", "Steel", "Ice","Ghost", "Dragon")
+
+    // State to hold the current filter and index
+    var currentFilter by remember { mutableStateOf("All Types") }
+    var currentFilterIndex by remember { mutableStateOf(0) }
+
+    // State to hold the filtered list
+    var filteredPokemonList by remember { mutableStateOf(pokemonList) }
+
+    // Function to filter Pokémon by type
+    fun filterByType(type: String) {
+        currentFilter = type
+        filteredPokemonList = if (type == "All Types") {
+            pokemonList
+        } else {
+            pokemonList.filter { it.types.any { t -> t.equals(type, ignoreCase = true) } }
+        }
+    }
+
+    // Function to navigate left and right through filter types
+    fun navigateFilter(direction: Int) {
+        val newIndex = (currentFilterIndex + direction + filterTypes.size) % filterTypes.size
+        currentFilterIndex = newIndex
+        filterByType(filterTypes[newIndex])
+    }
 
     Column(modifier = Modifier.fillMaxSize().background(colorScheme.primary).padding(16.dp)) {
         Text(text = "Pokédex", style = MaterialTheme.typography.headlineLarge)
 
         Spacer(modifier = Modifier.height(8.dp))
 
+        // Filter Row with the current filter and navigation buttons
+        Row(
+            modifier = Modifier.fillMaxWidth(),
+            verticalAlignment = Alignment.CenterVertically,
+            horizontalArrangement = Arrangement.Start
+        ) {
+            // Left side: "Current Filter: $currentFilter"
+            Text(text = "Current Filter: $currentFilter", style = MaterialTheme.typography.bodyMedium)
+
+            Spacer(modifier = Modifier.weight(1f))
+
+            // Right side: Navigation arrows and filter text
+            Row(
+                verticalAlignment = Alignment.CenterVertically,
+                horizontalArrangement = Arrangement.Center
+            ) {
+                // Left Arrow
+                IconButton(onClick = { navigateFilter(-1) }) {
+                    Icon(painter = painterResource(id = R.drawable.ic_arrow_left), contentDescription = "Previous filter")
+                }
+                Box(
+                    modifier = Modifier
+                        .width(80.dp)
+                        .padding(horizontal = 8.dp)
+                ) {
+                    // Text in the middle: current filter
+                    Text(
+                        text = filterTypes[currentFilterIndex],
+                        style = MaterialTheme.typography.bodyMedium,
+                        maxLines = 1,
+                        overflow = TextOverflow.Ellipsis
+                    )
+                }
+
+                // Right Arrow
+                IconButton(onClick = { navigateFilter(1) }) {
+                    Icon(painter = painterResource(id = R.drawable.ic_arrow_right), contentDescription = "Next filter")
+                }
+            }
+        }
+
+        Spacer(modifier = Modifier.height(16.dp))
+
+        // Display Pokémon list based on the current filter
         LazyColumn {
-            items(pokemonList) { pokemon ->
+            items(filteredPokemonList) { pokemon ->
                 PokemonItem(pokemon, context, navController)
             }
         }
